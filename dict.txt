@@ -1,0 +1,7 @@
+惊厥	convulsion
+腺癌	adenocarcinoma
+食管	esophagus
+腹泻	diarrhea
+胸骨柄	manubrium
+气胸	pneumothorax
+肺气肿	emphysema
