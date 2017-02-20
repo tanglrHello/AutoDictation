@@ -44,6 +44,6 @@ def main():
             print "+++++++++++++++++++++++++"
         words = wrong_word_pairs
         wrong_word_pairs = []
-    print "You have remenbered all the words! So excellent! me~me~da~ mua~"
+    print "You have remembered all the words! So excellent!"
 
 main()
