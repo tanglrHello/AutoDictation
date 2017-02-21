@@ -4,7 +4,7 @@ This script is used for remembering new words. You can creat your own dictionary
 
 
 Attention, dict.txt is encoded as a utf-8 file. 
-You should put a word pair in a line, with a blank character (' ' or '\t' are both ok). Like the examole given in dict.txt ( the first word will be shown to you, and you should input the second word interactively ):
+You should put a word pair in a line, using a tab('\t') to separate Chinese word and English word. Like the examole given in dict.txt ( the first word will be shown to you, and you should input the second word interactively ):
 	
 	惊厥	convulsion
 	腺癌	adenocarcinoma

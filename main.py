@@ -15,7 +15,7 @@ def main():
     for line in dictionary_file.readlines():
         if encoding == '1':
             line = line.decode('utf-8').encode('gbk')
-        info = line.strip().split()
+        info = line.strip().split('\t')
         assert len(info) == 2
         words.append(info)
     total_words_number = len(words)

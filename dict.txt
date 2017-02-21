@@ -5,3 +5,37 @@
 胸骨柄	manubrium
 气胸	pneumothorax
 肺气肿	emphysema
+尿潴留	urinary retention
+多囊卵巢综合征	polycystic ovary syndrome
+主动脉夹层	aorta dissection
+心绞痛	angor pectoris
+更年期	menopause
+地中海贫血	thalassemia
+全身性红斑狼疮	systemic lupus erythematosus
+乙型肝炎	hepatitis B
+关节炎	arthritis
+食管	esophagus
+交感神经	sympathetic nerve
+胸主动脉	thoracic aorta
+透析	dialysis
+尿毒症	uremia
+腹主动脉瘤	abdominal aortic aneurysm
+瘘管	fistula
+肺栓塞	pulmonary embolism
+卵圆孔	oval foramen
+筋膜	fascia
+脂溢性皮炎	seborrhoeic dermatitis
+紫癜	purpura
+糖尿病	diabetes mellitus
+腹直肌	rectus abdominis
+扁桃体	tonsil
+尺骨	ulna
+贲门	cardia
+肾上腺素	adrenaline
+胸膜积液	pleural effusion
+腹股沟疝	inguinal hernia
+胃下垂	gastroptosis
+成视网膜细胞	retinoblastoma
+带状疱疹	herpes zoster
+幽门螺杆菌	helicobacter pylori
+斜方肌	trapezius
