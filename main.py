@@ -161,7 +161,7 @@ def update_word_infos_by_time():
     word_file = open("dict.txt")
     new_file = open("dict_new.txt", "w")
 
-    expected_dictate_number = 30.0
+    expected_dictate_number = 20.0
     score_diff = time_diff * (expected_dictate_number * 10) / word_number
 
     for word_info in word_file.readlines():
