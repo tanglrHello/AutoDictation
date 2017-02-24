@@ -10,6 +10,8 @@ def main():
     words = get_word_infos(encoding)
     dictation(words)
     update_word_infos(words)
+    if os.path.exists("key.inf"):
+        os.remove("key.inf")
 
 
 def choose_encoding():
