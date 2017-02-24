@@ -8,7 +8,7 @@
 尿潴留	urinary retention
 多囊卵巢综合征	polycystic ovary syndrome
 主动脉夹层	aorta dissection
-心绞痛	angor pectoris
+心绞痛	angina pectoris/angor pectoris
 更年期	menopause
 地中海贫血	thalassemia
 全身性红斑狼疮	systemic lupus erythematosus
@@ -24,7 +24,7 @@
 肺栓塞	pulmonary embolism
 卵圆孔	oval foramen
 筋膜	fascia
-脂溢性皮炎	seborrhoeic dermatitis
+脂溢性皮炎	seborrheic dermatitis
 紫癜	purpura
 糖尿病	diabetes mellitus
 腹直肌	rectus abdominis
@@ -39,3 +39,27 @@
 带状疱疹	herpes zoster
 幽门螺杆菌	helicobacter pylori
 斜方肌	trapezius
+疟疾	malaria
+痔疮	haemorrhoids
+支气管	bronchus
+癫痫	epilepsy
+小儿麻痹症	poliomyelitis
+发作	seizure
+脑瘫	cerebral palsy
+畸形	malformation
+体外循环	extracorporeal circulation
+鳞癌	squamous carcinoma
+三角肌	deltoid
+子宫内膜异位	endometriosis
+支气管扩张	bronchiectasia
+哮喘	asthma
+静脉曲张	varices
+黄疸	jaundice
+椎间盘	intervertebral disc
+青光眼	glaucoma
+肠梗阻	ileus/intestinal obstruction
+狂犬病	rabies
+神经梅毒	neurosyphilis
+羊膜穿刺术	amniocentesis
+羊膜	amniotic membrane
+类风湿性关节炎	rheumatoid arthritis
