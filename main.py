@@ -88,7 +88,7 @@ def dictation_round(all_words, words_to_dictate, first_round):
 
     for word in word_list:
         source_word = word[0]
-        target_words = word[1][0].split("/t")
+        target_words = word[1][0].split("\t")
 
         print source_word
         answer = raw_input()

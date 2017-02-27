@@ -1,64 +1,84 @@
-惊厥	convulsion	70
-腺癌	adenocarcinoma	80
-食管	esophagus	70
-腹泻	diarrhea	70
-胸骨柄	manubrium	80
-气胸	pneumothorax	70
-肺气肿	emphysema	80
-尿潴留	urinary retention	70
-多囊卵巢综合征	polycystic ovary syndrome	80
-主动脉夹层	aorta dissection	80
-心绞痛	angina pectoris/angor pectoris	80
-更年期	menopause	70
-地中海贫血	thalassemia	80
-全身性红斑狼疮	systemic lupus erythematosus	80
-乙型肝炎	hepatitis B	70
-关节炎	arthritis	70
-交感神经	sympathetic nerve	80
-胸主动脉	thoracic aorta	80
-透析	dialysis	60
-尿毒症	uremia	70
-腹主动脉瘤	abdominal aortic aneurysm	80
-瘘管	fistula	60
-肺栓塞	pulmonary embolism	80
-卵圆孔	oval foramen	80
-筋膜	fascia	70
-脂溢性皮炎	seborrheic dermatitis	80
-紫癜	purpura	60
-糖尿病	diabetes mellitus	80
-腹直肌	rectus abdominis	80
-扁桃体	tonsil	70
-尺骨	ulna	70
-贲门	cardia	70
-肾上腺素	adrenaline	80
-胸膜积液	pleural effusion	60
-腹股沟疝	inguinal hernia	70
-胃下垂	gastroptosis	80
-成视网膜细胞	retinoblastoma	80
-带状疱疹	herpes zoster	60
-幽门螺杆菌	helicobacter pylori	70
-斜方肌	trapezius	60
-疟疾	malaria	80
-痔疮	haemorrhoids	80
-支气管	bronchus	80
-癫痫	epilepsy	80
-小儿麻痹症	poliomyelitis	80
-发作	seizure	80
-脑瘫	cerebral palsy	80
-畸形	malformation	80
-体外循环	extracorporeal circulation	70
-鳞癌	squamous carcinoma	80
-三角肌	deltoid	70
-子宫内膜异位	endometriosis	80
-支气管扩张	bronchiectasia	70
-哮喘	asthma	40
-静脉曲张	varices	80
-黄疸	jaundice	80
-椎间盘	intervertebral disc	80
-青光眼	glaucoma	80
-肠梗阻	ileus/intestinal obstruction	80
-狂犬病	rabies	80
-神经梅毒	neurosyphilis	80
-羊膜穿刺术	amniocentesis	80
-羊膜	amniotic membrane	80
-类风湿性关节炎	rheumatoid arthritis	80
+惊厥	convulsion	70.0
+腺癌	adenocarcinoma	80.0
+食管	esophagus	70.0
+腹泻	diarrhea	70.0
+胸骨柄	manubrium	80.0
+气胸	pneumothorax	70.0
+肺气肿	emphysema	80.0
+尿潴留	urinary retention	70.0
+多囊卵巢综合征	polycystic ovary syndrome	80.0
+主动脉夹层	aorta dissection	80.0
+心绞痛	angina pectoris/angor pectoris	80.0
+更年期	menopause	70.0
+地中海贫血	thalassemia	80.0
+全身性红斑狼疮	systemic lupus erythematosus	80.0
+乙型肝炎	hepatitis B	70.0
+关节炎	arthritis	70.0
+交感神经	sympathetic nerve	80.0
+胸主动脉	thoracic aorta	80.0
+透析	dialysis	60.0
+尿毒症	uremia	70.0
+腹主动脉瘤	abdominal aortic aneurysm	80.0
+瘘管	fistula	60.0
+肺栓塞	pulmonary embolism	80.0
+卵圆孔	oval foramen	80.0
+筋膜	fascia	70.0
+脂溢性皮炎	seborrheic dermatitis	80.0
+紫癜	purpura	60.0
+糖尿病	diabetes mellitus	80.0
+腹直肌	rectus abdominis	80.0
+扁桃体	tonsil	70.0
+尺骨	ulna	70.0
+贲门	cardia	70.0
+肾上腺素	adrenaline	80.0
+胸膜积液	pleural effusion	60.0
+腹股沟疝	inguinal hernia	70.0
+胃下垂	gastroptosis	80.0
+成视网膜细胞	retinoblastoma	80.0
+带状疱疹	herpes zoster	60.0
+幽门螺杆菌	helicobacter pylori	70.0
+斜方肌	trapezius	60.0
+疟疾	malaria	80.0
+痔疮	haemorrhoids	80.0
+支气管	bronchus	80.0
+癫痫	epilepsy	80.0
+小儿麻痹症	poliomyelitis	80.0
+发作	seizure	80.0
+脑瘫	cerebral palsy	80.0
+畸形	malformation	80.0
+体外循环	extracorporeal circulation	70.0
+鳞癌	squamous carcinoma	80.0
+三角肌	deltoid	70.0
+子宫内膜异位	endometriosis	80.0
+支气管扩张	bronchiectasia	70.0
+哮喘	asthma	40.0
+静脉曲张	varices	80.0
+黄疸	jaundice	80.0
+椎间盘	intervertebral disc	80.0
+青光眼	glaucoma	80.0
+肠梗阻	ileus/intestinal obstruction	80.0
+狂犬病	rabies	80.0
+神经梅毒	neurosyphilis	80.0
+羊膜穿刺术	amniocentesis	80.0
+羊膜	amniotic membrane	80.0
+类风湿性关节炎	rheumatoid arthritis	80.0
+肩周炎	scapulohumeral periarthritis
+化疗	chemotherapy
+再生障碍性贫血	aplastic anemia
+血管瘤	hemangioma
+动脉瘤	aneurysm
+蛋白酶	protease/proteinase
+垂体	hypophysis/pituitary gland
+截肢	amputation
+肠系膜	mesentery
+甲亢	hyperthyroidism
+破伤风	tetanus
+窦房结	tetanus
+纵膈	mediastinum
+印戒细胞癌	signet-ring cell carcinoma
+脑脊液	cerebrospinal fluid
+脾脏	spleen
+白化病	albinism
+白癜风	leucoderma
+息肉	polypus
+胰腺炎	pancreatitis
