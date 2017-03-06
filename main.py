@@ -10,7 +10,7 @@ def main():
     print "***** You can type in 'exit()' to end the dictation *****"
     words = get_word_infos(encoding)
     dictation(words)
-    update_word_infos(words)
+    update_word_infos(words, encoding)
     if os.path.exists("key.inf"):
         os.remove("key.inf")
 
@@ -129,12 +129,16 @@ def dictation_round(all_words, words_to_dictate, first_round):
     return wrong_words, True
 
 
-def update_word_infos(words):
+def update_word_infos(words, encoding):
     new_file = open("dict_new.txt", "w")
     for word in words:
         target_words = words[word][0]
         score = words[word][1]
-        new_file.write(word + "\t" + target_words + "\t" + str(score) + "\n")
+        if encoding == "1":
+            new_file.write((word + "\t" + target_words + "\t" + str(score) + "\n").decode("gbk").encode("utf-8"))
+        else:
+            new_file.write(word + "\t" + target_words + "\t" + str(score) + "\n")
+
     new_file.close()
 
     os.remove("dict.txt")
