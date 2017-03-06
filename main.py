@@ -96,7 +96,7 @@ def dictation_round(all_words, words_to_dictate, first_round):
 
     for word in word_list:
         source_word = word[0]
-        target_words = word[1][0].split("\t")
+        target_words = word[1][0].split("/")
 
         print source_word, "(you can type in 'exit()' to end the dictation)"
         answer = raw_input()
@@ -106,6 +106,7 @@ def dictation_round(all_words, words_to_dictate, first_round):
 
         # check answer
         for i, target_word in enumerate(target_words):
+            print target_word
             if answer == target_word:
                 print "well done! This word can also be translated into:",
                 for j in range(len(target_words)):
