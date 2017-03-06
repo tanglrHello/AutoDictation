@@ -36,49 +36,72 @@
 胃下垂	gastroptosis	80.0
 成视网膜细胞	retinoblastoma	80.0
 带状疱疹	herpes zoster	60.0
-幽门螺杆菌	helicobacter pylori	70.0
+幽门螺杆菌	helicobacter pylori/helicobacter pylorus	105.0
 斜方肌	trapezius	60.0
 疟疾	malaria	80.0
 痔疮	haemorrhoids	80.0
 支气管	bronchus	80.0
 癫痫	epilepsy	80.0
-小儿麻痹症	poliomyelitis	80.0
+小儿麻痹症	poliomyelitis	70.0
 发作	seizure	80.0
 脑瘫	cerebral palsy	80.0
 畸形	malformation	80.0
 体外循环	extracorporeal circulation	70.0
-鳞癌	squamous carcinoma	80.0
+鳞癌	squamous carcinoma	70.0
 三角肌	deltoid	70.0
-子宫内膜异位	endometriosis	80.0
+子宫内膜异位	endometriosis	70.0
 支气管扩张	bronchiectasia	70.0
 哮喘	asthma	40.0
 静脉曲张	varices	80.0
-黄疸	jaundice	80.0
+黄疸	jaundice	70.0
 椎间盘	intervertebral disc	80.0
 青光眼	glaucoma	80.0
 肠梗阻	ileus/intestinal obstruction	80.0
 狂犬病	rabies	80.0
-神经梅毒	neurosyphilis	80.0
+神经梅毒	neurosyphilis	300.0
 羊膜穿刺术	amniocentesis	80.0
-羊膜	amniotic membrane	80.0
-类风湿性关节炎	rheumatoid arthritis	80.0
-肩周炎	scapulohumeral periarthritis
+羊膜	amniotic membrane	70.0
+类风湿性关节炎	rheumatoid arthritis	70.0
+肩周炎	scapulohumeral periarthritis	70.0
 化疗	chemotherapy
-再生障碍性贫血	aplastic anemia
-血管瘤	hemangioma
-动脉瘤	aneurysm
-蛋白酶	protease/proteinase
-垂体	hypophysis/pituitary gland
+再生障碍性贫血	aplastic anemia	90.0
+血管瘤	hemangioma	140.0
+动脉瘤	aneurysm	90.0
+蛋白酶	protease/proteinase	90.0
+垂体	hypophysis/pituitary gland	150.0
 截肢	amputation
-肠系膜	mesentery
-甲亢	hyperthyroidism
-破伤风	tetanus
-窦房结	tetanus
-纵膈	mediastinum
-印戒细胞癌	signet-ring cell carcinoma
+肠系膜	mesentery	90.0
+甲亢	hyperthyroidism	90.0
+破伤风	tetanus	90.0
+窦房结	atrionector/sinoatrial node
+纵膈	mediastinum	90.0
+印戒细胞癌	signet-ring cell carcinoma	140.0
 脑脊液	cerebrospinal fluid
 脾脏	spleen
 白化病	albinism
 白癜风	leucoderma
-息肉	polypus
-胰腺炎	pancreatitis
+息肉	polypus/polyp	90.0
+胰腺炎	pancreatitis	90.0
+神经性食欲缺乏	anorexia nervosa
+蛛网膜	arachnoid	90.0
+窒息	asphyxia/apnea	150.0
+胆固醇	cholesterol	120.0
+绒膜癌	choriocarcinoma	90.0
+尿毒症	uremia	90.0
+三叉神经	trigeminal nerve	90.0
+黑素瘤	melanoma
+脑膜炎	meningitis	90.0
+心肌	myocardium/myocardia	90.0
+早搏	premature beat/premature contraction	90.0
+房性早搏	premature atrial contraction
+产褥期	puerperium	90.0
+直肠	rectum
+鼻炎	rhinitis
+括约肌	sphincter
+胸腺	thymus
+气管切开术	tracheotomy
+心包膜	pericardium
+肝硬化	liver cirrhosis
+半月板	meniscus
+粘膜	mucosa
+神经衰弱	neurasthenia

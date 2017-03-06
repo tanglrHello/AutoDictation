@@ -53,8 +53,13 @@ def dictation(words):
     words_to_dictate = words
     all_words = words
     first_round = True
+
+    normal_exit = True
     while len(words_to_dictate) != 0:
-        wrong_words = dictation_round(all_words, words_to_dictate, first_round)
+        wrong_words, continue_dictate = dictation_round(all_words, words_to_dictate, first_round)
+        if not continue_dictate:
+            normal_exit = False
+            break
 
         print "you correctly remembered", len(words) - len(wrong_words), "words, wrong with", len(
             wrong_words), "words. Good Job! Just keeeeeeeep on!"
@@ -67,7 +72,10 @@ def dictation(words):
         words_to_dictate = wrong_words
         first_round = False
 
-    print "You have remembered all the words! So excellent!"
+    if normal_exit:
+        print "You have remembered all the words! So excellent!"
+    else:
+        print "You exit this dictation halfway. Remember go back again when you are free ~ ~"
 
 
 def dictation_round(all_words, words_to_dictate, first_round):
@@ -93,6 +101,9 @@ def dictation_round(all_words, words_to_dictate, first_round):
         print source_word
         answer = raw_input()
 
+        if answer == "exit()":
+            return [], False
+
         # check answer
         for i, target_word in enumerate(target_words):
             if answer == target_word:
@@ -112,7 +123,7 @@ def dictation_round(all_words, words_to_dictate, first_round):
 
         print "**********"
 
-    return wrong_words
+    return wrong_words, True
 
 
 def update_word_infos(words):
