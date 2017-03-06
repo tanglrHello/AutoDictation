@@ -98,7 +98,7 @@ def dictation_round(all_words, words_to_dictate, first_round):
         source_word = word[0]
         target_words = word[1][0].split("\t")
 
-        print source_word
+        print source_word, "(you can type in 'exit()' to end the dictation)"
         answer = raw_input()
 
         if answer == "exit()":
@@ -115,13 +115,13 @@ def dictation_round(all_words, words_to_dictate, first_round):
                 all_words[source_word][1] -= 10
                 break
         else:
-            print "wrong answer, remenber again:", "#".join(target_words)
+            print "XXXXXX...wrong answer, remenber again:", "#".join(target_words)
             wrong_words[source_word] = word[1]
             # change the word score
             if first_round:
                 all_words[source_word][1] *= 1.5
 
-        print "**********"
+        print "---------------"
 
     return wrong_words, True
 
