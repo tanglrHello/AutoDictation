@@ -7,6 +7,7 @@ from datetime import datetime
 def main():
     update_word_infos_by_time()
     encoding = choose_encoding()
+    print "***** You can type in 'exit()' to end the dictation *****"
     words = get_word_infos(encoding)
     dictation(words)
     update_word_infos(words)
@@ -98,7 +99,7 @@ def dictation_round(all_words, words_to_dictate, first_round):
         source_word = word[0]
         target_words = word[1][0].split("/")
 
-        print source_word, "(you can type in 'exit()' to end the dictation)"
+        print source_word
         answer = raw_input()
 
         if answer == "exit()":
@@ -108,7 +109,7 @@ def dictation_round(all_words, words_to_dictate, first_round):
         for i, target_word in enumerate(target_words):
             print target_word
             if answer == target_word:
-                print "well done! This word can also be translated into:",
+                print "√ Also:",
                 for j in range(len(target_words)):
                     if i != j:
                         print target_words[j], "#"
@@ -116,13 +117,14 @@ def dictation_round(all_words, words_to_dictate, first_round):
                 all_words[source_word][1] -= 10
                 break
         else:
-            print "XXXXXX...wrong answer, remenber again:", "#".join(target_words)
+            print "\n".join(target_words), "(reference)"
+            print "XXXXXX...wrong answer, remenber again"
             wrong_words[source_word] = word[1]
             # change the word score
             if first_round:
                 all_words[source_word][1] *= 1.5
 
-        print "---------------"
+        print '\n'
 
     return wrong_words, True
 
