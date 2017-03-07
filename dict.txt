@@ -1,107 +1,138 @@
-惊厥	convulsion	70.0
-腺癌	adenocarcinoma	80.0
-食管	esophagus	70.0
-腹泻	diarrhea	70.0
-胸骨柄	manubrium	80.0
-气胸	pneumothorax	70.0
-肺气肿	emphysema	80.0
-尿潴留	urinary retention	70.0
-多囊卵巢综合征	polycystic ovary syndrome	80.0
-主动脉夹层	aorta dissection	80.0
-心绞痛	angina pectoris/angor pectoris	80.0
-更年期	menopause	70.0
-地中海贫血	thalassemia	80.0
-全身性红斑狼疮	systemic lupus erythematosus	80.0
-乙型肝炎	hepatitis B	70.0
-关节炎	arthritis	70.0
-交感神经	sympathetic nerve	80.0
-胸主动脉	thoracic aorta	80.0
-透析	dialysis	60.0
-尿毒症	uremia	70.0
-腹主动脉瘤	abdominal aortic aneurysm	80.0
-瘘管	fistula	60.0
-肺栓塞	pulmonary embolism	80.0
-卵圆孔	oval foramen	80.0
-筋膜	fascia	70.0
-脂溢性皮炎	seborrheic dermatitis	80.0
-紫癜	purpura	60.0
-糖尿病	diabetes mellitus	80.0
-腹直肌	rectus abdominis	80.0
-扁桃体	tonsil	70.0
 尺骨	ulna	70.0
-贲门	cardia	70.0
-肾上腺素	adrenaline	80.0
-胸膜积液	pleural effusion	60.0
-腹股沟疝	inguinal hernia	70.0
-胃下垂	gastroptosis	80.0
-成视网膜细胞	retinoblastoma	80.0
-带状疱疹	herpes zoster	60.0
-幽门螺杆菌	helicobacter pylori/helicobacter pylorus	105.0
-斜方肌	trapezius	60.0
-疟疾	malaria	80.0
-痔疮	haemorrhoids	80.0
-支气管	bronchus	80.0
-癫痫	epilepsy	80.0
-小儿麻痹症	poliomyelitis	70.0
-发作	seizure	80.0
-脑瘫	cerebral palsy	80.0
-畸形	malformation	80.0
-体外循环	extracorporeal circulation	70.0
 鳞癌	squamous carcinoma	70.0
-三角肌	deltoid	70.0
-子宫内膜异位	endometriosis	70.0
-支气管扩张	bronchiectasia	70.0
+产褥期	puerperium	80.0
+筋膜	fascia	70.0
+腹股沟疝	inguinal hernia	70.0
+成视网膜细胞	retinoblastoma	70.0
+胰腺炎	pancreatitis	80.0
+直肠	rectum	90.0
+畸形	malformation	120.0
+神经梅毒	neurosyphilis	290.0
+卵圆孔	oval foramen	70.0
+交感神经	sympathetic nerve	70.0
+瘘管	fistula	60.0
+痔疮	haemorrhoids	120.0
+发作	seizure	70.0
+截肢	amputation	90.0
+乙型肝炎	hepatitis B	70.0
+心肌	myocardium/myocardia	80.0
+半月板	meniscus	150.0
+息肉	polypus/polyp	135.0
+脑脊液	cerebrospinal fluid	90.0
+窦房结	atrionector/sinoatrial node	90.0
+胆固醇	cholesterol	180.0
+脑瘫	cerebral palsy	70.0
+纵膈	mediastinum	80.0
+静脉曲张	varices	70.0
+糖尿病	diabetes mellitus	70.0
+肠系膜	mesentery	135.0
+绒膜癌	choriocarcinoma	80.0
+尿毒症	uremia	80.0
+血管瘤	hemangioma	130.0
+动脉瘤	aneurysm	80.0
+肾上腺素	adrenaline	70.0
+带状疱疹	herpes zoster	60.0
+惊厥	convulsion	70.0
+蛛网膜	arachnoid	80.0
+粘膜	mucosa	90.0
+早搏	premature beat/premature contraction	80.0
+主动脉夹层	aorta dissection	120.0
+关节炎	arthritis	70.0
+三叉神经	trigeminal nerve	135.0
+化疗	chemotherapy	90.0
+羊膜穿刺术	amniocentesis	70.0
+蛋白酶	protease/proteinase	135.0
+肺气肿	emphysema	70.0
+多囊卵巢综合征	polycystic ovary syndrome	70.0
+甲亢	hyperthyroidism	80.0
+肠梗阻	ileus/intestinal obstruction	120.0
 哮喘	asthma	40.0
-静脉曲张	varices	80.0
-黄疸	jaundice	70.0
-椎间盘	intervertebral disc	80.0
-青光眼	glaucoma	80.0
-肠梗阻	ileus/intestinal obstruction	80.0
-狂犬病	rabies	80.0
-神经梅毒	neurosyphilis	300.0
-羊膜穿刺术	amniocentesis	80.0
-羊膜	amniotic membrane	70.0
-类风湿性关节炎	rheumatoid arthritis	70.0
+贲门	cardia	70.0
+胃下垂	gastroptosis	70.0
+幽门螺杆菌	helicobacter pylori/helicobacter pylorus	95.0
+鼻炎	rhinitis	150.0
+气胸	pneumothorax	70.0
 肩周炎	scapulohumeral periarthritis	70.0
-化疗	chemotherapy
-再生障碍性贫血	aplastic anemia	90.0
-血管瘤	hemangioma	140.0
-动脉瘤	aneurysm	90.0
-蛋白酶	protease/proteinase	90.0
-垂体	hypophysis/pituitary gland	150.0
-截肢	amputation
-肠系膜	mesentery	90.0
-甲亢	hyperthyroidism	90.0
-破伤风	tetanus	90.0
-窦房结	atrionector/sinoatrial node
-纵膈	mediastinum	90.0
-印戒细胞癌	signet-ring cell carcinoma	140.0
-脑脊液	cerebrospinal fluid
-脾脏	spleen
-白化病	albinism
-白癜风	leucoderma
-息肉	polypus/polyp	90.0
-胰腺炎	pancreatitis	90.0
-神经性食欲缺乏	anorexia nervosa
-蛛网膜	arachnoid	90.0
-窒息	asphyxia/apnea	150.0
-胆固醇	cholesterol	120.0
-绒膜癌	choriocarcinoma	90.0
-尿毒症	uremia	90.0
-三叉神经	trigeminal nerve	90.0
-黑素瘤	melanoma
-脑膜炎	meningitis	90.0
-心肌	myocardium/myocardia	90.0
-早搏	premature beat/premature contraction	90.0
-房性早搏	premature atrial contraction
-产褥期	puerperium	90.0
-直肠	rectum
-鼻炎	rhinitis
-括约肌	sphincter
-胸腺	thymus
-气管切开术	tracheotomy
-心包膜	pericardium
-肝硬化	liver cirrhosis
-半月板	meniscus
-粘膜	mucosa
-神经衰弱	neurasthenia
+子宫内膜异位	endometriosis	70.0
+扁桃体	tonsil	70.0
+支气管扩张	bronchiectasia	70.0
+神经性食欲缺乏	anorexia nervosa	90.0
+狂犬病	rabies	70.0
+气管切开术	tracheotomy	90.0
+全身性红斑狼疮	systemic lupus erythematosus	70.0
+腹直肌	rectus abdominis	70.0
+神经衰弱	neurasthenia	150.0
+胸膜积液	pleural effusion	60.0
+疟疾	malaria	120.0
+心包膜	pericardium	150.0
+肝硬化	liver cirrhosis	150.0
+白化病	albinism	90.0
+白癜风	leucoderma	150.0
+青光眼	glaucoma	120.0
+羊膜	amniotic membrane	70.0
+透析	dialysis	60.0
+脑膜炎	meningitis	80.0
+癫痫	epilepsy	70.0
+括约肌	sphincter	150.0
+尿潴留	urinary retention	70.0
+脾脏	spleen	90.0
+腺癌	adenocarcinoma	70.0
+三角肌	deltoid	70.0
+体外循环	extracorporeal circulation	70.0
+腹主动脉瘤	abdominal aortic aneurysm	70.0
+脂溢性皮炎	seborrheic dermatitis	120.0
+垂体	hypophysis/pituitary gland	225.0
+支气管	bronchus	70.0
+腹泻	diarrhea	70.0
+类风湿性关节炎	rheumatoid arthritis	70.0
+心绞痛	angina pectoris/angor pectoris	70.0
+黄疸	jaundice	70.0
+窒息	asphyxia/apnea	225.0
+再生障碍性贫血	aplastic anemia	80.0
+黑素瘤	melanoma	150.0
+胸腺	thymus	90.0
+紫癜	purpura	60.0
+斜方肌	trapezius	60.0
+破伤风	tetanus	135.0
+肺栓塞	pulmonary embolism	70.0
+地中海贫血	thalassemia	120.0
+胸骨柄	manubrium	120.0
+房性早搏	premature atrial contraction	150.0
+小儿麻痹症	poliomyelitis	70.0
+更年期	menopause	70.0
+食管	esophagus	70.0
+椎间盘	intervertebral disc	70.0
+胸主动脉	thoracic aorta	70.0
+印戒细胞癌	signet-ring cell carcinoma	130.0
+呕血	hematemesis
+咯血	hemoptysis
+呼吸困难	dyspnea
+吞咽困难	dysphagia
+铜绿假单胞菌	pseudomonas aeruginosa
+金黄色葡萄球菌	staphylococcus aureus
+隐球菌	cryptococcus
+链球菌	streptococcus
+新月体	cresent
+胆囊	cholecyst/gall bladder
+盐皮质激素	mineralocorticoid
+糖皮质激素	glucocorticoid
+网膜	omentum
+蛛网膜下腔	subarachnoid space
+骨穿	bone marrow aspiration
+横隔	diaphragm
+梅毒螺旋体	treponema pallidum
+梅毒	syphilis
+纤维瘤	fibroma
+胸骨	sternum
+小脑	cerebellum
+结节	nodule
+肿块	lump
+透析	dialysis
+压疮	bedsore
+痤疮	acne
+腹膜	peritoneum
+幽门	pylorus
+腹水	ascites
+角膜	cornea
+特发性肺纤维化	idiopathic pulmonary fibrosis
+坐骨神经	sciatic nerve

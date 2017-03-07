@@ -9,7 +9,7 @@ def main():
     encoding = choose_encoding()
     print "***** You can type in 'exit()' to end the dictation *****"
     words = get_word_infos(encoding)
-    dictation(words)
+    dictation(words, encoding)
     update_word_infos(words, encoding)
     if os.path.exists("key.inf"):
         os.remove("key.inf")
@@ -50,14 +50,14 @@ def get_word_infos(encoding):
     return words
 
 
-def dictation(words):
+def dictation(words, encoding):
     words_to_dictate = words
     all_words = words
     first_round = True
 
     normal_exit = True
     while len(words_to_dictate) != 0:
-        wrong_words, continue_dictate = dictation_round(all_words, words_to_dictate, first_round)
+        wrong_words, continue_dictate = dictation_round(all_words, words_to_dictate, first_round, encoding)
         if not continue_dictate:
             normal_exit = False
             break
@@ -79,7 +79,7 @@ def dictation(words):
         print "You exit this dictation halfway. Remember go back again when you are free ~ ~"
 
 
-def dictation_round(all_words, words_to_dictate, first_round):
+def dictation_round(all_words, words_to_dictate, first_round, encoding):
     wrong_words = {}
     words_to_real_dictate = {}
 
@@ -109,7 +109,11 @@ def dictation_round(all_words, words_to_dictate, first_round):
         for i, target_word in enumerate(target_words):
             print target_word
             if answer == target_word:
-                print "√ Also:",
+                if encoding == "1":
+                    print "√ Also:".encode("gbk"),
+                else:
+                    print "√ Also:",
+                    
                 for j in range(len(target_words)):
                     if i != j:
                         print target_words[j], "#"
