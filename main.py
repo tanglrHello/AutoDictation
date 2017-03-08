@@ -110,10 +110,13 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
             print target_word
             if answer == target_word:
                 if encoding == "1":
-                    print "√ Also:".encode("gbk"),
+                    print "√".encode("gbk"),
                 else:
-                    print "√ Also:",
-                    
+                    print "√",
+
+                if len(target_word) > 1:
+                    print "Also:",
+
                 for j in range(len(target_words)):
                     if i != j:
                         print target_words[j], "#"
