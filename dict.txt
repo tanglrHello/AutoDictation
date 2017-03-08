@@ -144,3 +144,4 @@
 肺炎	pneumonia
 冠状动脉	coronary artery
 白内障	cataract
+我爱你  I love you！
