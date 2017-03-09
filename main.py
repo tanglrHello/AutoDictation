@@ -4,7 +4,22 @@ import os
 from datetime import datetime
 
 
+S_WORD_INDEX_INFILE = 0
+T_WORD_INDEX_INFILE = 1
+SCORE_INDEX_INFILE = 2
+TOTAL_TIME_INDEX_INFILE = 3
+CORRECT_TIME_INDEX_INFILE = 4
+CONTINUOUS_CORRECT_TIME_INDEX_INFILE = 5
+
+T_WORD_INDEX_INLIST = 0
+SCORE_INDEX_INLIST = 1
+TOTAL_TIME_INDEX_INLIST = 2
+CORRECT_TIME_INDEX_INLIST = 3
+CONTINUOUS_CORRECT_TIME_INDEX_INLIST = 4
+
+
 def main():
+    init_words()
     update_word_infos_by_time()
     encoding = choose_encoding()
     print "***** You can type in 'exit()' to end the dictation *****"
@@ -40,12 +55,16 @@ def get_word_infos(encoding):
             line = line.decode('utf-8').encode('gbk')
 
         info = line.strip().split('\t')
-        assert len(info) == 3
+        assert len(info) == 6
 
-        source_word = info[0]
-        target_words = info[1]
+        source_word = info[S_WORD_INDEX_INFILE]
+        target_words = info[T_WORD_INDEX_INFILE]
+        score = float(info[SCORE_INDEX_INFILE])
+        total_dict_time = float(info[TOTAL_TIME_INDEX_INFILE])
+        correct_dict_time = float(info[CORRECT_TIME_INDEX_INFILE])
+        continuous_correct_time = float(info[CONTINUOUS_CORRECT_TIME_INDEX_INFILE])
 
-        words[source_word] = [target_words, float(info[2])]
+        words[source_word] = [target_words, score, total_dict_time, correct_dict_time, continuous_correct_time]
 
     return words
 
@@ -84,10 +103,10 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
     words_to_real_dictate = {}
 
     # if this is the first dictation round, only dictate words with score greater then 80
-    # else: dictate all words
+    # else: dictate all words in words_to_dictate
     if first_round:
         for word in words_to_dictate:
-            if words_to_dictate[word][1] >= 80:
+            if words_to_dictate[word][SCORE_INDEX_INLIST] >= 80:
                 words_to_real_dictate[word] = words_to_dictate[word]
     else:
         words_to_real_dictate = words_to_dictate
@@ -95,11 +114,15 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
     word_list = words_to_real_dictate.items()
     random.shuffle(word_list)
 
+    current_index = 1
+    total_word_number = len(word_list)
+
     for word in word_list:
         source_word = word[0]
-        target_words = word[1][0].split("/")
+        target_words = word[1][T_WORD_INDEX_INLIST].split("/")
 
-        print source_word
+        print "(" + str(current_index) + "/" + str(total_word_number) + ")", source_word
+        current_index += 1
         answer = raw_input()
 
         if answer == "exit()":
@@ -118,19 +141,36 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
 
                 for j in range(len(target_words)):
                     if i != j:
-                        print target_words[j], "#"
-                    print ""
-                all_words[source_word][1] -= 10
+                        print target_words[j], "#",
+                print ""
+
+                # update score
+                all_words[source_word][SCORE_INDEX_INLIST] -= 10 * all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST]
+                # update dictate time
+                all_words[source_word][TOTAL_TIME_INDEX_INLIST] += 1
+                all_words[source_word][CORRECT_TIME_INDEX_INLIST] += 1
+                # update continuous_correct_time
+                all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST] += 1
+
                 break
         else:
             print "\n".join(target_words), "(reference)"
-            print "XXXXXX...wrong answer, remenber again"
+            print "X"
             wrong_words[source_word] = word[1]
-            # change the word score
-            if first_round:
-                all_words[source_word][1] *= 1.5
 
-        print '\n'
+            # update score
+            all_words[source_word][SCORE_INDEX_INLIST] *= 1.5
+            # update dictate time
+            all_words[source_word][TOTAL_TIME_INDEX_INLIST] += 1
+            # update continuous_correct_time
+            all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST] = 0
+
+        total_time = all_words[source_word][TOTAL_TIME_INDEX_INLIST]
+        correct_time = all_words[source_word][CORRECT_TIME_INDEX_INLIST]
+
+        print "( History correct rate: ",  str(correct_time / total_time * 100) + "%)"
+        print "-----------------------------------"
+
 
     return wrong_words, True
 
@@ -138,18 +178,46 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
 def update_word_infos(words, encoding):
     new_file = open("dict_new.txt", "w")
     for word in words:
-        target_words = words[word][0]
-        score = words[word][1]
+        words[word] = [word] + [str(info) for info in words[word]]
+
         if encoding == "1":
-            new_file.write((word + "\t" + target_words + "\t" + str(score) + "\n").decode("gbk").encode("utf-8"))
+            new_file.write(('\t'.join(words[word]) + "\n").decode("gbk").encode("utf-8"))
         else:
-            new_file.write(word + "\t" + target_words + "\t" + str(score) + "\n")
+            new_file.write('\t'.join(words[word]) + "\n")
 
     new_file.close()
 
     os.remove("dict.txt")
     os.rename("dict_new.txt", "dict.txt")
     return
+
+
+def init_words():
+    # update words score
+    word_file = open("dict.txt")
+    new_file = open("dict_new.txt", "w")
+
+    for line in word_file.readlines():
+        word_info = line.strip().split("\t")
+        if len(word_info) == 2:
+            # 4th col records total dictate time
+            # 5th col records correct time
+            # 6th col records recent continuous correct time
+            word_info += ['100', '0', '0', '0']
+        elif len(word_info) == 3:
+            word_info += ['0', '0', '0']
+        elif len(word_info) == 6:
+            pass
+        else:
+            assert False
+
+        new_file.write("\t".join(word_info) + "\n")
+
+    word_file.close()
+    new_file.close()
+
+    os.remove("dict.txt")
+    os.rename("dict_new.txt", "dict.txt")
 
 
 def update_word_infos_by_time():
@@ -187,7 +255,7 @@ def update_word_infos_by_time():
     word_file = open("dict.txt")
     new_file = open("dict_new.txt", "w")
 
-    expected_dictate_number = 20.0
+    expected_dictate_number = 10.0
     score_diff = time_diff * (expected_dictate_number * 10) / word_number
 
     for word_info in word_file.readlines():
