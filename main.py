@@ -114,18 +114,19 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
     word_list = words_to_real_dictate.items()
     random.shuffle(word_list)
 
+    current_index = 1
+    total_word_number = len(word_list)
+
     for word in word_list:
         source_word = word[0]
         target_words = word[1][T_WORD_INDEX_INLIST].split("/")
 
-        print source_word
+        print "(" + str(current_index) + "/" + str(total_word_number) + ")", source_word
+        current_index += 1
         answer = raw_input()
 
         if answer == "exit()":
             return [], False
-
-        total_dictate_time = word[1][TOTAL_TIME_INDEX_INLIST]
-        continuous_correct_time = word[1][CONTINUOUS_CORRECT_TIME_INDEX_INLIST]
 
         # check answer
         for i, target_word in enumerate(target_words):
@@ -167,7 +168,7 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
         total_time = all_words[source_word][TOTAL_TIME_INDEX_INLIST]
         correct_time = all_words[source_word][CORRECT_TIME_INDEX_INLIST]
 
-        print "( History correct rate: ",  correct_time / total_time, " )"
+        print "( History correct rate: ",  str(correct_time / total_time * 100) + "%)"
         print "-----------------------------------"
 
 
