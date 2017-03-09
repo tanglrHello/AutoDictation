@@ -78,7 +78,7 @@
 狂犬病	rabies	72.8881242832
 气管切开术	tracheotomy	72.8881242832
 呕血	hematemesis	81.4492753623
-全身性红斑狼疮	systemic lupus erythematosus	72.8881242832
+系统性红斑狼疮	systemic lupus erythematosus	100
 腹直肌	rectus abdominis	72.8881242832
 神经衰弱	neurasthenia	132.888124283
 梅毒	syphilis	81.4492753623
@@ -144,3 +144,9 @@
 肺炎	pneumonia
 冠状动脉	coronary artery
 白内障	cataract
+肾病	nephrosis
+肾炎	nephritis
+十二指肠	duodenum
+锁骨	clavicle
+瘫痪	paralysis
+迷走神经	vagus nerve
