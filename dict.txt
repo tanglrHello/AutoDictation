@@ -150,3 +150,19 @@
 锁骨	clavicle
 瘫痪	paralysis
 迷走神经	vagus nerve
+内窥镜	endoscope	70
+乳酸	lactic acid
+结肠	colon	60
+腮腺炎	parotitis
+下丘脑	hypothalamus
+丘脑	thalamus
+水肿	edema
+宫外孕	extrauterine pregnancy
+白血球	leukocyte/white blood cells
+白血病	leukemia
+嗜酸性细胞	eosinophil
+嗜碱性细胞	basophil
+中性粒细胞	neutrophil
+肥大细胞	mast cell/mastocyte
+粒性白细胞	granulocyte/granular leukocytes/granular leukocyte
+血小板	platelet
