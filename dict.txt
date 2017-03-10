@@ -170,7 +170,7 @@
 血清	serum
 血浆	plasma
 帕金森	Parkinson's disease
-阿兹海默症	alzheimer's disease
+阿兹海默症	Alzheimer's disease
 枕叶	occipital lobe
 额叶	frontal lobe
 颞叶	temporal lobe
