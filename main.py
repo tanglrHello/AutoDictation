@@ -145,7 +145,7 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
                 print ""
 
                 # update score
-                all_words[source_word][SCORE_INDEX_INLIST] -= 10 * all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST]
+                all_words[source_word][SCORE_INDEX_INLIST] -= 10 * ( 1 + all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST] )
                 # update dictate time
                 all_words[source_word][TOTAL_TIME_INDEX_INLIST] += 1
                 all_words[source_word][CORRECT_TIME_INDEX_INLIST] += 1
@@ -159,7 +159,7 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
             wrong_words[source_word] = word[1]
 
             # update score
-            all_words[source_word][SCORE_INDEX_INLIST] *= 1.5
+            all_words[source_word][SCORE_INDEX_INLIST] *= 1.1
             # update dictate time
             all_words[source_word][TOTAL_TIME_INDEX_INLIST] += 1
             # update continuous_correct_time
