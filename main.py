@@ -161,7 +161,10 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
             wrong_words[source_word] = word[1]
 
             # update score
-            all_words[source_word][SCORE_INDEX_INLIST] *= 1.1
+            if all_words[source_word][SCORE_INDEX_INLIST] < 80:
+                all_words[source_word][SCORE_INDEX_INLIST] = 88
+            else:
+                all_words[source_word][SCORE_INDEX_INLIST] *= 1.1
             # update dictate time
             all_words[source_word][TOTAL_TIME_INDEX_INLIST] += 1
             # update continuous_correct_time
