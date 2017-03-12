@@ -75,6 +75,10 @@ def dictation(words, encoding):
 
     words_to_dictate = init_real_dictate_words(words)
 
+    if len(words_to_dictate) == 0:
+        print "You don't need to do a dictation now. Come back later ~ ~ ~ ~"
+        return
+
     normal_exit = True
     while len(words_to_dictate) != 0:
         wrong_words, continue_dictate = dictation_round(all_words, words_to_dictate, first_round, encoding)
