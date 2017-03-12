@@ -70,9 +70,10 @@ def get_word_infos(encoding):
 
 
 def dictation(words, encoding):
-    words_to_dictate = words
     all_words = words
     first_round = True
+
+    words_to_dictate = init_real_dictate_words(words)
 
     normal_exit = True
     while len(words_to_dictate) != 0:
@@ -81,13 +82,13 @@ def dictation(words, encoding):
             normal_exit = False
             break
 
-        print "you correctly remembered", len(words) - len(wrong_words), "words, wrong with", len(
+        print "you correctly remembered", len(words_to_dictate) - len(wrong_words), "words, wrong with", len(
             wrong_words), "words. Good Job! Just keeeeeeeep on!"
 
         if len(wrong_words) != 0:
             print "Let's try again for those naughty words~"
             raw_input("press any key to continue")
-            print "+++++++++++++++++++++++++"
+            print "++++++++++++++++++++++++++++++++++++++++++++++++++"
 
         words_to_dictate = wrong_words
         first_round = False
@@ -98,20 +99,18 @@ def dictation(words, encoding):
         print "You exit this dictation halfway. Remember go back again when you are free ~ ~"
 
 
+def init_real_dictate_words(words):
+    words_to_real_dictate = {}
+    for word in words:
+        if words[word][SCORE_INDEX_INLIST] >= 80:
+            words_to_real_dictate[word] = words[word]
+    return words_to_real_dictate
+
+
 def dictation_round(all_words, words_to_dictate, first_round, encoding):
     wrong_words = {}
-    words_to_real_dictate = {}
 
-    # if this is the first dictation round, only dictate words with score greater then 80
-    # else: dictate all words in words_to_dictate
-    if first_round:
-        for word in words_to_dictate:
-            if words_to_dictate[word][SCORE_INDEX_INLIST] >= 80:
-                words_to_real_dictate[word] = words_to_dictate[word]
-    else:
-        words_to_real_dictate = words_to_dictate
-
-    word_list = words_to_real_dictate.items()
+    word_list = words_to_dictate.items()
     random.shuffle(word_list)
 
     current_index = 1
@@ -145,7 +144,10 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
                 print ""
 
                 # update score
-                all_words[source_word][SCORE_INDEX_INLIST] -= 10 * ( 1 + all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST] )
+                if all_words[source_word][SCORE_INDEX_INLIST] > 80:
+                    all_words[source_word][SCORE_INDEX_INLIST] = 80
+                else:
+                    all_words[source_word][SCORE_INDEX_INLIST] -= 10 * ( 1 + all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST] )
                 # update dictate time
                 all_words[source_word][TOTAL_TIME_INDEX_INLIST] += 1
                 all_words[source_word][CORRECT_TIME_INDEX_INLIST] += 1
@@ -255,7 +257,7 @@ def update_word_infos_by_time():
     word_file = open("dict.txt")
     new_file = open("dict_new.txt", "w")
 
-    expected_dictate_number = 10.0
+    expected_dictate_number = 20.0
     score_diff = time_diff * (expected_dictate_number * 10) / word_number
 
     for word_info in word_file.readlines():
