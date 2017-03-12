@@ -143,11 +143,13 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
                         print target_words[j], "#",
                 print ""
 
-                # update score
-                if all_words[source_word][SCORE_INDEX_INLIST] > 80:
-                    all_words[source_word][SCORE_INDEX_INLIST] = 75
-                else:
-                    all_words[source_word][SCORE_INDEX_INLIST] -= 10 * ( 1 + all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST] )
+                if first_round:
+                    # update score
+                    if all_words[source_word][SCORE_INDEX_INLIST] > 80:
+                        all_words[source_word][SCORE_INDEX_INLIST] = 75
+                    else:
+                        all_words[source_word][SCORE_INDEX_INLIST] -= 10 * ( 1 + all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST] )
+
                 # update dictate time
                 all_words[source_word][TOTAL_TIME_INDEX_INLIST] += 1
                 all_words[source_word][CORRECT_TIME_INDEX_INLIST] += 1
