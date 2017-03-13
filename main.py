@@ -108,6 +108,16 @@ def init_real_dictate_words(words):
         total_dictation_time = words[word][TOTAL_TIME_INDEX_INLIST]
         if score > 80 and total_dictation_time < 3:
             words_to_real_dictate[word] = words[word]
+
+    if len(words_to_real_dictate) < 20:
+        word_list = words.items()
+        to_add_num = 20 - len(words_to_real_dictate)
+        while to_add_num > 0:
+            word_info = random.choice(word_list)
+            if word_info[0] not in words_to_real_dictate:
+                words_to_real_dictate[word_info[0]] = word_info[1]
+                to_add_num -= 1
+
     return words_to_real_dictate
 
 
