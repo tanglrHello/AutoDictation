@@ -3,7 +3,6 @@ import random
 import os
 from datetime import datetime
 
-
 S_WORD_INDEX_INFILE = 0
 T_WORD_INDEX_INFILE = 1
 SCORE_INDEX_INFILE = 2
@@ -16,7 +15,6 @@ SCORE_INDEX_INLIST = 1
 TOTAL_TIME_INDEX_INLIST = 2
 CORRECT_TIME_INDEX_INLIST = 3
 CONTINUOUS_CORRECT_TIME_INDEX_INLIST = 4
-
 
 def main():
     init_words()
@@ -106,7 +104,9 @@ def dictation(words, encoding):
 def init_real_dictate_words(words):
     words_to_real_dictate = {}
     for word in words:
-        if words[word][SCORE_INDEX_INLIST] >= 80:
+        score = words[word][SCORE_INDEX_INLIST]
+        total_dictation_time = words[word][TOTAL_TIME_INDEX_INLIST]
+        if score > 80 and total_dictation_time < 3:
             words_to_real_dictate[word] = words[word]
     return words_to_real_dictate
 
@@ -147,12 +147,16 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
                         print target_words[j], "#",
                 print ""
 
+                score = all_words[source_word][SCORE_INDEX_INLIST]
+                total_time = all_words[source_word][TOTAL_TIME_INDEX_INLIST]
+                continuous_correct_time = all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST]
+
                 if first_round:
                     # update score
-                    if all_words[source_word][SCORE_INDEX_INLIST] > 80:
+                    if score > 80 and total_time >= 3 and continuous_correct_time > 1:
                         all_words[source_word][SCORE_INDEX_INLIST] = 75
                     else:
-                        all_words[source_word][SCORE_INDEX_INLIST] -= 10 * ( 1 + all_words[source_word][CONTINUOUS_CORRECT_TIME_INDEX_INLIST] )
+                        all_words[source_word][SCORE_INDEX_INLIST] -= 10 * (1 + continuous_correct_time)
 
                 # update dictate time
                 all_words[source_word][TOTAL_TIME_INDEX_INLIST] += 1
@@ -181,7 +185,6 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding):
 
         print "( History correct rate: ",  str(correct_time / total_time * 100) + "%)"
         print "-----------------------------------"
-
 
     return wrong_words, True
 
