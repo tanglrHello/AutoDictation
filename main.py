@@ -106,6 +106,7 @@ def init_real_dictate_words(words):
     for word in words:
         score = words[word][SCORE_INDEX_INLIST]
         total_dictation_time = words[word][TOTAL_TIME_INDEX_INLIST]
+
         if score > 80 and total_dictation_time < 3:
             words_to_real_dictate[word] = words[word]
 
@@ -297,5 +298,5 @@ def update_word_infos_by_time():
     os.remove("dict.txt")
     os.rename("dict_new.txt", "dict.txt")
     return
-
+# test
 main()
