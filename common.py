@@ -26,9 +26,26 @@ def choose_dict(type):
     files = os.listdir('.')
     file_index = 0
 
-    candidate_files = []
+    if type == "bilingual":
+        bi_dicts = filter(lambda x: x.endswith(".bi.txt"), files)
+        if len(bi_dicts) == 1:
+            DICT_FILE = bi_dicts[0]
+            return
+        elif len(bi_dicts) == 0:
+            print "No available dict file!!!"
+            exit()
+
+    elif type == "monolingual":
+        mo_dicts = filter(lambda x: x.endswith(".mo.txt"), files)
+        if len(mo_dicts) == 1:
+            DICT_FILE = mo_dicts[0]
+            return
+        elif len(mo_dicts) == 0:
+            print "No available dict file!!!"
+            exit()
 
     print "Please choose a dict file:"
+    candidate_files = []
     for filename in files:
         if type == "bilingual":
             if filename.endswith(".bi.txt"):
@@ -126,6 +143,10 @@ def init_real_dictate_words(words, index_in_list):
 
         if score > 80 or total_dictation_time < 3:
             words_to_real_dictate[word] = words[word]
+
+    if len(words_to_real_dictate) > 50:
+        word_list = sorted(words_to_real_dictate.items(), key=lambda x:float(x[1][index_in_list["score"]]))
+        words_to_real_dictate = dict(word_list[:50])
 
     if len(words_to_real_dictate) < 20:
         word_list = words.items()
