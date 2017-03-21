@@ -166,7 +166,6 @@ def update_correct(all_words, source_word, index_in_list, first_round):
     total_time = all_words[source_word][index_in_list["total_time"]]
     continuous_correct_time = all_words[source_word][index_in_list["continuous_correct_time"]]
 
-    print all_words[source_word], "111"
     if first_round:
         # update score
         if score > 80 and total_time >= 3 and continuous_correct_time > 1:
@@ -179,7 +178,6 @@ def update_correct(all_words, source_word, index_in_list, first_round):
     all_words[source_word][index_in_list["correct_time"]] += 1
     # update continuous_correct_time
     all_words[source_word][index_in_list["continuous_correct_time"]] += 1
-    print all_words[source_word], "000"
 
 
 def update_wrong(all_words, source_word, index_in_list):
