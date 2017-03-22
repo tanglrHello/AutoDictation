@@ -161,7 +161,6 @@ def init_real_dictate_words(words, index_in_list):
 
 
 def update_correct(all_words, source_word, index_in_list, first_round):
-    print index_in_list
     score = all_words[source_word][index_in_list["score"]]
     total_time = all_words[source_word][index_in_list["total_time"]]
     continuous_correct_time = all_words[source_word][index_in_list["continuous_correct_time"]]
