@@ -141,11 +141,11 @@ def init_real_dictate_words(words, index_in_list):
         score = words[word][index_in_list["score"]]
         total_dictation_time = words[word][index_in_list["total_time"]]
 
-        if score > 80 or total_dictation_time < 3:
+        if score > 80 or total_dictation_time < 2:
             words_to_real_dictate[word] = words[word]
 
     if len(words_to_real_dictate) > 50:
-        word_list = sorted(words_to_real_dictate.items(), key=lambda x:float(x[1][index_in_list["score"]]))
+        word_list = sorted(words_to_real_dictate.items(), key=lambda x:float(x[1][index_in_list["total_time"]]))
         words_to_real_dictate = dict(word_list[:50])
 
     if len(words_to_real_dictate) < 20:
@@ -161,16 +161,13 @@ def init_real_dictate_words(words, index_in_list):
 
 
 def update_correct(all_words, source_word, index_in_list, first_round):
-    score = all_words[source_word][index_in_list["score"]]
-    total_time = all_words[source_word][index_in_list["total_time"]]
     continuous_correct_time = all_words[source_word][index_in_list["continuous_correct_time"]]
 
     if first_round:
-        # update score
-        if score > 80 and total_time >= 3 and continuous_correct_time > 1:
+    # update score
+        all_words[source_word][index_in_list["score"]] -= 10 * (1 + continuous_correct_time)
+        if all_words[source_word][index_in_list["score"]] > 75:
             all_words[source_word][index_in_list["score"]] = 75
-        else:
-            all_words[source_word][index_in_list["score"]] -= 10 * (1 + continuous_correct_time)
 
     # update dictate time
     all_words[source_word][index_in_list["total_time"]] += 1
@@ -192,6 +189,10 @@ def update_wrong(all_words, source_word, index_in_list):
 
 
 def judge_for_bilingual(user_input, target_words, encoding):
+    # pass
+    if user_input == 'y':
+        return True
+
     # check answer
     for i, target_word in enumerate(target_words):
         if user_input == target_word:
@@ -255,6 +256,7 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding, index_in
 
     for word in word_list:
         source_word = word[0]
+        print word
 
         print "(" + str(current_index) + "/" + str(total_word_number) + ")", source_word
         current_index += 1
