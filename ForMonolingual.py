@@ -19,7 +19,7 @@ INDEX_IN_LIST["continuous_correct_time"] = 3
 def main():
     choose_dict("monolingual")
     init_words()
-    update_word_infos_by_time()
+    update_word_infos_by_time(INDEX_IN_FILE['score'])
     encoding = choose_encoding()
     print "***** You can type in 'exit()' to end the dictation *****"
     words = get_word_infos(encoding, WORD_INDEX_INFILE, INDEX_IN_FILE)

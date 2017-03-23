@@ -337,7 +337,7 @@ def init_words():
     os.rename(DICT_FILE + ".new", DICT_FILE)
 
 
-def update_word_infos_by_time():
+def update_word_infos_by_time(score_file_index):
     global DICT_FILE
 
     time_filename = "system.inf"
@@ -379,10 +379,7 @@ def update_word_infos_by_time():
 
     for word_info in word_file.readlines():
         word_info = word_info.strip().split('\t')
-        if len(word_info) == 2:
-            word_info.append("100")
-        else:
-            word_info[2] = str(float(word_info[2]) + score_diff)
+        word_info[score_file_index] = str(float(word_info[score_file_index]) + score_diff)
 
         new_file.write("\t".join(word_info) + "\n")
 
