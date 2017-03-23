@@ -256,7 +256,6 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding, index_in
 
     for word in word_list:
         source_word = word[0]
-        print word
 
         print "(" + str(current_index) + "/" + str(total_word_number) + ")", source_word
         current_index += 1
