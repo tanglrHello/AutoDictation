@@ -5,6 +5,7 @@ from datetime import datetime
 
 
 DICT_FILE = None
+PASS_TIME = 0
 
 
 def choose_encoding():
@@ -118,6 +119,10 @@ def dictation(words, encoding, index_in_list, type):
             normal_exit = False
             break
 
+        if type == "bilingual":
+            global PASS_TIME
+            print "You have use pass card for " + PASS_TIME + "  times"
+
         print "you correctly remembered", len(words_to_dictate) - len(wrong_words), "words, wrong with", len(
             wrong_words), "words. Good Job! Just keeeeeeeep on!"
 
@@ -189,8 +194,10 @@ def update_wrong(all_words, source_word, index_in_list):
 
 
 def judge_for_bilingual(user_input, target_words, encoding):
+    global PASS_TIME
     # pass
     if user_input == 'y':
+        PASS_TIME += 1
         return True
 
     # check answer
