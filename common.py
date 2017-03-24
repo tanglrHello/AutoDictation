@@ -169,7 +169,7 @@ def update_correct(all_words, source_word, index_in_list, first_round):
     continuous_correct_time = all_words[source_word][index_in_list["continuous_correct_time"]]
 
     if first_round:
-    # update score
+        # update score
         all_words[source_word][index_in_list["score"]] -= 10 * (1 + continuous_correct_time)
         if all_words[source_word][index_in_list["score"]] > 75:
             all_words[source_word][index_in_list["score"]] = 75
@@ -198,6 +198,7 @@ def judge_for_bilingual(user_input, target_words, encoding):
     # pass
     if user_input == 'y':
         PASS_TIME += 1
+        print target_words
         return True
 
     # check answer
@@ -232,7 +233,7 @@ def dictate_one_bilingual(all_words, source_word, answer, index_in_list, encodin
         update_wrong(all_words, source_word, index_in_list)
 
 
-def check_one_monolingual(all_words, word, answer, index_in_list, encoding, first_round, wrong_words):
+def check_one_monolingual(all_words, word, answer, index_in_list, first_round, wrong_words):
     while answer != "n" and answer != "y":
         answer = raw_input("please input y or n: ")
 
@@ -274,7 +275,7 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding, index_in
         if type == "bilingual":
             dictate_one_bilingual(all_words, source_word, answer, index_in_list, encoding, first_round, wrong_words)
         else:
-            check_one_monolingual(all_words, source_word, answer, index_in_list, encoding, first_round, wrong_words)
+            check_one_monolingual(all_words, source_word, answer, index_in_list, first_round, wrong_words)
 
         total_time = all_words[source_word][index_in_list["total_time"]]
         correct_time = all_words[source_word][index_in_list["correct_time"]]
@@ -305,7 +306,7 @@ def update_word_infos(words, encoding):
 
 
 def init_words():
-    global  DICT_FILE
+    global DICT_FILE
 
     # update words score
     word_file = open(DICT_FILE)
