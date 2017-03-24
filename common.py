@@ -121,7 +121,7 @@ def dictation(words, encoding, index_in_list, type):
 
         if type == "bilingual":
             global PASS_TIME
-            print "You have use pass card for " + PASS_TIME + "  times"
+            print "You have use pass card for " + str(PASS_TIME) + "  times"
 
         print "you correctly remembered", len(words_to_dictate) - len(wrong_words), "words, wrong with", len(
             wrong_words), "words. Good Job! Just keeeeeeeep on!"
