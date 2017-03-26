@@ -146,9 +146,12 @@ def init_real_dictate_words(words, index_in_list):
         score = words[word][index_in_list["score"]]
         total_dictation_time = words[word][index_in_list["total_time"]]
 
+        if word.startswith("#"):
+            continue
+
         if score > 80 or total_dictation_time < 2:
             words_to_real_dictate[word] = words[word]
-        elif word.startswith("#") and total_dictation_time < 5:
+        elif word.startswith("!") and total_dictation_time < 5:
             words_to_real_dictate[word] = words[word]
 
     if len(words_to_real_dictate) > 50:
