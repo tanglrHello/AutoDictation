@@ -148,6 +148,8 @@ def init_real_dictate_words(words, index_in_list):
 
         if score > 80 or total_dictation_time < 2:
             words_to_real_dictate[word] = words[word]
+        elif word.startswith("#") and total_dictation_time < 5:
+            words_to_real_dictate[word] = words[word]
 
     if len(words_to_real_dictate) > 50:
         word_list = sorted(words_to_real_dictate.items(), key=lambda x:float(x[1][index_in_list["total_time"]]))
