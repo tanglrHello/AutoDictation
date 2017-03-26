@@ -1,314 +1,318 @@
-坐骨神经	sciatic nerve	90.0600175106	3.0	1.0	1.0
-宫外孕	extrauterine pregnancy	75.0	5.0	4.0	4.0
-糖皮质激素	glucocorticoid	75.0	4.0	4.0	4.0
-咯血	hemoptysis	63.8254394876	5.0	4.0	3.0
-心绞痛	angina pectoris/angor pectoris	88.0	4.0	3.0	1.0
-透析	dialysis	21.9944429243	3.0	3.0	3.0
-踝关节跖曲	ankle plantar flexion	104.489640457	3.0	3.0	1.0
-窦房结	atrionector/sinoatrial node	88.6369426752	3.0	3.0	1.0
-小脑	cerebellum	21.9944429243	3.0	3.0	3.0
-急性呼吸窘迫综合征	acute respiratory distress syndrome/ARDS	100.636942675	0.0	0.0	0.0
-丘脑	thalamus	75.0	4.0	4.0	4.0
-神经麻痹	nerve palsy/palsies	45.1122819667	3.0	3.0	3.0
-免疫缺陷	immunodeficiency	100.636942675	0.0	0.0	0.0
-疱疹	herpes	77.7945116525	3.0	3.0	3.0
-紫癜	purpura	96.8	3.0	1.0	1.0
-乳酸	lactic acid	75.0	5.0	5.0	5.0
-梅毒螺旋体	treponema pallidum	83.8254394876	5.0	3.0	3.0
-腹膜	peritoneum	88.6369426752	4.0	3.0	1.0
-肾结石	kidney calculi	33.8254394876	3.0	3.0	3.0
-幽门螺杆菌	helicobacter pylori/helicobacter pylorus	32.7945116525	3.0	3.0	3.0
-肾炎	nephritis	48.8254394876	4.0	4.0	4.0
-锁骨	clavicle	60.545167562	3.0	3.0	3.0
-痛风	gout	33.8254394876	3.0	3.0	3.0
-脱髓鞘	demyelination	100.636942675	0.0	0.0	0.0
-肝硬化	liver cirrhosis	75.0	5.0	5.0	5.0
-贲门	cardia	23.4332918452	3.0	3.0	3.0
-卵圆孔	oval foramen	23.4332918452	3.0	3.0	3.0
-肌酐	creatinine	100.636942675	0.0	0.0	0.0
-碱中毒	alkalosis	100.636942675	0.0	0.0	0.0
-支气管	bronchus	91.6427513236	3.0	1.0	1.0
-金黄色葡萄球菌	staphylococcus aureus	101.42878178	9.0	4.0	1.0
-皮肤的	cutaneous	75.1122819667	3.0	3.0	3.0
-地中海贫血	thalassemia	63.433291845	3.0	3.0	3.0
-中性粒细胞	neutrophil	75.0	5.0	4.0	4.0
-十二指肠	duodenum	75.0	5.0	5.0	5.0
-头孢菌素	cephalosporin	33.8254394876	3.0	3.0	3.0
-卟啉症	porphyria	100.636942675	0.0	0.0	0.0
-髋关节内收	hip adduction	45.1122819667	3.0	3.0	3.0
-系统性红斑狼疮	systemic lupus erythematosus	60.545167562	3.0	3.0	3.0
-蛋白酶	protease/proteinase	68.433291845	3.0	3.0	3.0
-热带的	tropical	100.636942675	0.0	0.0	0.0
-间质组织	interstitium	75.1122819667	3.0	3.0	3.0
-听诊	auscultation	96.0366517137	3.0	3.0	3.0
-钾	kalium/potassium	100.636942675	0.0	0.0	0.0
-视网膜母细胞瘤	retinoblastoma	74.8375738535	3.0	3.0	3.0
-败血症	sepsis	77.7945116525	3.0	3.0	3.0
-畸形	malformation	43.433291845	3.0	3.0	3.0
-神经衰弱	neurasthenia	43.8254394876	4.0	4.0	4.0
-输卵管	uterine tube/fallopian tube	76.8375738533	3.0	3.0	3.0
-蛛网膜	arachnoid	23.4332918452	3.0	3.0	3.0
-结缔组织	connective tissue	86.9260694277	3.0	3.0	3.0
-瘫痪	paralysis	75.0	4.0	4.0	4.0
-梅毒	syphilis	21.9944429243	3.0	3.0	3.0
-血管瘤	hemangioma	63.433291845	3.0	3.0	3.0
-氯吡格雷	clopidogrel	100.636942675	0.0	0.0	0.0
-淋巴结	lymph node	97.7945116525	3.0	3.0	3.0
-大肠埃希菌	Escherichia coli	114.804734797	4.0	3.0	1.0
-扁桃体	tonsil	53.4332918452	3.0	3.0	3.0
-强直性脊柱炎	ankylosing spondylitis	83.8254394876	4.0	3.0	3.0
-产褥期	puerperium	91.6427513236	3.0	1.0	1.0
-麻风	leprosy	77.7945116525	3.0	3.0	3.0
-食管	esophagus	53.4332918452	3.0	3.0	3.0
-不动杆菌属	Acinetobacter	100.636942675	0.0	0.0	0.0
-糖尿病	diabetes mellitus	88.6369426752	3.0	3.0	1.0
-横隔	diaphragm	21.9944429243	3.0	3.0	3.0
-胸穿	thoracentesis	75.9526181008	3.0	3.0	3.0
-下丘脑	hypothalamus	75.0	4.0	4.0	4.0
-乳糖不耐受	lactose intolerance	93.0741137302	4.0	3.0	1.0
-疟疾	malaria	63.433291845	3.0	3.0	3.0
-乙酰胆碱	acetylcholine	100.636942675	0.0	0.0	0.0
-黄曲霉毒素	aflatoxin	100.636942675	0.0	0.0	0.0
-间质	interstitium	45.1122819667	3.0	3.0	3.0
-（受体）激动剂	agonist	100.636942675	0.0	0.0	0.0
-内窥镜	endoscope	88.5996843182	2.0	1.0	1.0
-帕金森	Parkinson's disease	93.0741137302	4.0	3.0	1.0
-侏儒症	nanism/dwarfism	75.0	4.0	4.0	4.0
-支气管扩张	bronchiectasia	110.606602719	4.0	1.0	1.0
-急性肾小管坏死	acute tubular necrosis/ATN	100.636942675	0.0	0.0	0.0
-乙型肝炎	hepatitis B	23.4332918452	3.0	3.0	3.0
-输精管	ductus deferens/vas deferens	140.406964795	4.0	1.0	1.0
-脓肿	abscess	75.0	4.0	4.0	4.0
-网膜	omentum	68.6369426752	5.0	4.0	2.0
-呕血	hematemesis	90.0600175106	3.0	1.0	1.0
-抗胰蛋白酶	antitrypsin	75.9526181008	3.0	3.0	3.0
-肥大细胞	mast cell/mastocyte	40.545167562	3.0	3.0	3.0
-谵妄	delirium	100.636942675	0.0	0.0	0.0
-肾上腺素	adrenaline	23.4332918452	3.0	3.0	3.0
-脑瘫	cerebral palsy	23.4332918452	3.0	3.0	3.0
-骨科	orthopaedics	53.8254394876	4.0	3.0	3.0
-椎间盘	intervertebral disc	97.4369426752	4.0	3.0	1.0
-肌无力	myasthenia	100.636942675	0.0	0.0	0.0
-枕叶	occipital lobe	53.8254394876	3.0	3.0	3.0
-骨穿	bone marrow aspiration	21.9944429243	3.0	3.0	3.0
-甲亢	hyperthyroidism	23.4332918452	3.0	3.0	3.0
-黄体	corpus luteum	76.8375738533	3.0	3.0	3.0
-幽门	pylorus	90.0600175106	3.0	1.0	1.0
-消融	ablation	75.1122819667	3.0	3.0	3.0
-腰大肌	psoas major	95.1877536652	3.0	3.0	3.0
-瓣膜	valve	100.636942675	0.0	0.0	0.0
-血浆	plasma	75.0	4.0	4.0	4.0
-哮喘	asthma	-6.5667081548	3.0	3.0	3.0
-阻塞性睡眠暂停综合征	obstructive sleep apnea syndrome	33.8254394876	3.0	3.0	3.0
-尿毒症	uremia	23.4332918452	3.0	3.0	3.0
-肛门	anus	95.1877536652	3.0	3.0	3.0
-肾积水	hydronephrosis	33.8254394876	3.0	3.0	3.0
-酸中毒	acidosis	100.636942675	0.0	0.0	0.0
-鼻炎	rhinitis	75.0	5.0	5.0	5.0
-肝颈静脉回流征	hepatojugular reflux/abdominojugular reflux	75.9526181008	3.0	3.0	3.0
-冠状动脉	coronary artery	92.2079834364	6.0	4.0	1.0
-自身抗体	autoantibody	100.636942675	0.0	0.0	0.0
-月经过多	menorrhagia	76.8375738533	3.0	3.0	3.0
-听诊器	stethoscope	75.9526181008	3.0	3.0	3.0
-胆固醇	cholesterol	75.0	5.0	5.0	5.0
-筋膜	fascia	23.4332918452	3.0	3.0	3.0
-萎缩	atrophy	76.8375738533	3.0	3.0	3.0
-痤疮	acne	92.2079834364	6.0	5.0	1.0
-腮腺炎	parotitis	38.8254394876	5.0	5.0	5.0
-颅内出血	intracerebral hemorrhage	128.794511652	3.0	1.0	1.0
-异型性	atypia	88.0	3.0	3.0	0.0
-三角肌	deltoid	53.4332918452	3.0	3.0	3.0
-味觉丧失	hypogeusia	100.636942675	0.0	0.0	0.0
-腺苷	adenosine	100.636942675	0.0	0.0	0.0
-羊膜穿刺术	amniocentesis	53.4332918452	3.0	3.0	3.0
-窒息	asphyxia/apnea	83.8254394876	4.0	4.0	4.0
-结肠	colon	10.545167562	3.0	3.0	3.0
-顶叶	parietal lobe	75.0	4.0	4.0	4.0
-醛固酮增多症	Aldosteronism	100.636942675	0.0	0.0	0.0
-结核分枝杆菌	Mycobacterium tuberculosis	97.7945116525	3.0	3.0	3.0
-肠梗阻	ileus/intestinal obstruction	43.433291845	3.0	3.0	3.0
-结节	nodule	60.545167562	3.0	3.0	3.0
-子宫内膜异位	endometriosis	23.4332918452	3.0	3.0	3.0
-华法林	warfarin	100.636942675	0.0	0.0	0.0
-水肿	edema	75.0	4.0	4.0	4.0
-单纯疱疹	herpes simplex	100.636942675	0.0	0.0	0.0
-下颌骨	mandible	75.0	4.0	4.0	4.0
-鳞癌	squamous carcinoma	23.4332918452	3.0	3.0	3.0
-胸骨	sternum	21.9944429243	3.0	3.0	3.0
-胃下垂	gastroptosis	91.6427513236	3.0	1.0	1.0
-胸膜积液	pleural effusion	88.0	3.0	1.0	1.0
-肺水肿	pulmonary oedema/pulmonary edema	100.636942675	0.0	0.0	0.0
-多囊卵巢综合征	polycystic ovary syndrome	91.6427513236	3.0	1.0	1.0
-静脉曲张	varices	88.6369426752	4.0	3.0	1.0
-佝偻病	rickets	76.8375738533	3.0	3.0	3.0
-计算力缺失	acalculia	75.1122819667	3.0	3.0	3.0
-过敏反应	anaphylaxis/allergy	100.636942675	0.0	0.0	0.0
-失眠	insomnia	93.0741137302	3.0	3.0	1.0
-类风湿性关节炎	rheumatoid arthritis	91.6427513236	3.0	1.0	1.0
-带状疱疹	herpes zoster	43.4332918452	3.0	3.0	3.0
-视网膜	retina	77.7945116525	3.0	3.0	3.0
-尿酸	uric acid	33.8254394876	3.0	3.0	3.0
-纤维瘤	fibroma	21.9944429243	3.0	3.0	3.0
-肢端肥大症	acromegaly	100.636942675	0.0	0.0	0.0
-阑尾	appendix	45.1122819667	3.0	3.0	3.0
-胆囊	gall bladder/cholecyst	75.0	4.0	4.0	4.0
-月经	menorrhea/menstruation	76.8375738533	3.0	3.0	3.0
-嗜酸性细胞	eosinophil	75.0	4.0	4.0	4.0
-血清	serum	53.8254394876	3.0	3.0	3.0
-胰腺炎	pancreatitis	88.6369426752	3.0	3.0	1.0
-角膜	cornea	21.9944429243	3.0	3.0	3.0
-肠易激综合征	irritable bowel syndrome	93.0741137302	3.0	3.0	1.0
-髋关节外展	hip abduction	104.489640457	3.0	3.0	1.0
-针灸	acupuncture	100.636942675	0.0	0.0	0.0
-主动脉夹层	aorta dissection	75.0	5.0	5.0	5.0
-迷走神经	vagus nerve	75.0	4.0	4.0	4.0
-发作	seizure	23.4332918452	3.0	3.0	3.0
-外展神经	abducens nerve	126.15133857	5.0	3.0	1.0
-呼吸困难	dyspnea	90.0600175106	3.0	1.0	1.0
-肺栓塞	pulmonary embolism	53.4332918452	3.0	3.0	3.0
-5-氨基水杨酸	5-ASA/5-aminosalicylic acid	77.7945116525	3.0	3.0	3.0
-红霉素	erythromycin	63.8254394876	4.0	3.0	3.0
-粘膜	mucosa	23.4332918452	3.0	3.0	3.0
-铜绿假单胞菌	pseudomonas aeruginosa	75.0	5.0	4.0	4.0
-拮抗剂	antagonist	100.636942675	0.0	0.0	0.0
-息肉	polypus/polyp	48.8254394876	4.0	4.0	4.0
-房性早搏	premature atrial contraction	91.7766210302	5.0	4.0	1.0
-惊厥	convulsion	23.4332918452	3.0	3.0	3.0
-肺炎	pneumonia	75.0	4.0	4.0	4.0
-巨人症	gigantism	100.636942675	0.0	0.0	0.0
-隐球菌	cryptococcus	75.0	4.0	4.0	4.0
-盐皮质激素	mineralocorticoid	75.0	4.0	4.0	4.0
-更年期	menopause	53.4332918452	3.0	3.0	3.0
-腮腺	parotid gland	101.147655397	4.0	3.0	1.0
-嗜碱性细胞	basophil	75.0	4.0	4.0	4.0
-动脉瘤	aneurysm	23.4332918452	3.0	3.0	3.0
-脾脏	spleen	53.4332918452	3.0	3.0	3.0
-纵膈	mediastinum	23.4332918452	3.0	3.0	3.0
-三叉神经	trigeminal nerve	48.8254394876	4.0	4.0	4.0
-促肾上腺皮质激素	adrenocorticotrophic hormone/ACTH	100.636942675	0.0	0.0	0.0
-实质	parenchyma	104.489640457	3.0	3.0	1.0
-腺癌	adenocarcinoma	53.4332918452	3.0	3.0	3.0
-阿兹海默症	Alzheimer's disease	53.8254394876	3.0	3.0	3.0
-特发性肺纤维化	idiopathic pulmonary fibrosis	21.9944429243	3.0	3.0	3.0
-伸髋关节	hip extension	75.1122819667	3.0	3.0	3.0
-脑膜炎	meningitis	53.4332918452	3.0	3.0	3.0
-胸主动脉	thoracic aorta	53.4332918452	3.0	3.0	3.0
-关节炎	arthritis	23.4332918452	3.0	3.0	3.0
-酮症酸中毒	ketoacidosis	100.636942675	0.0	0.0	0.0
-体外循环	extracorporeal circulation	53.4332918452	3.0	3.0	3.0
-味觉减退	ageusia	100.636942675	0.0	0.0	0.0
-触摸痛	allodynia	100.636942675	0.0	0.0	0.0
-胃动力障碍	stomach adynamia	100.636942675	0.0	0.0	0.0
-癫痫	epilepsy	53.4332918452	3.0	3.0	3.0
-尺骨	ulna	91.6427513236	3.0	1.0	1.0
-腹水	ascites	21.9944429243	3.0	3.0	3.0
-化生	metaplasia	76.8375738533	3.0	3.0	3.0
-青光眼	glaucoma	43.433291845	3.0	3.0	3.0
-粒细胞减少症	granulocytopenia	100.636942675	0.0	0.0	0.0
-直肠	rectum	23.4332918452	3.0	3.0	3.0
-额叶	frontal lobe	83.8254394876	3.0	3.0	3.0
-曲霉病	aspergillosis	100.636942675	0.0	0.0	0.0
-白血病	leukemia	75.0	4.0	4.0	4.0
-颞叶	temporal lobe	75.0	4.0	4.0	4.0
-棘皮症	acanthosis	75.1122819667	3.0	3.0	3.0
-痔疮	haemorrhoids	88.6369426752	4.0	3.0	1.0
-胸腺	thymus	53.4332918452	3.0	3.0	3.0
-上颌骨	maxilla	75.0	4.0	4.0	4.0
-肾盂肾炎	nephropyelitis	107.205618025	7.0	4.0	1.0
-腹直肌	rectus abdominis	53.4332918452	3.0	3.0	3.0
-腹股沟疝	inguinal hernia	88.6369426752	3.0	3.0	1.0
-早搏	premature beat/premature contraction	88.6369426752	3.0	3.0	1.0
-肾衰竭	renal failure	100.636942675	0.0	0.0	0.0
-醛固酮	aldosterone	100.636942675	0.0	0.0	0.0
-前列腺	prostate	76.8375738533	3.0	3.0	3.0
-新月体	cresent	90.1938872171	5.0	4.0	1.0
-曲髋关节	hip flexion	75.1122819667	3.0	3.0	3.0
-阿米巴	amoeba	126.572659325	4.0	3.0	1.0
-黄疸	jaundice	23.4332918452	3.0	3.0	3.0
-血小板	platelet	75.0	5.0	5.0	5.0
-半月板	meniscus	75.0	4.0	4.0	4.0
-斜方肌	trapezius	43.4332918452	3.0	3.0	3.0
-粒性白细胞	granulocyte/granular leukocytes/granular leukocyte	75.0	4.0	4.0	4.0
-骨髓瘤	myeloma	75.0	4.0	4.0	4.0
-肠系膜	mesentery	75.0	4.0	4.0	4.0
-狂犬病	rabies	53.4332918452	3.0	3.0	3.0
-压疮	bedsore	21.9944429243	3.0	3.0	3.0
-神经性食欲缺乏	anorexia nervosa	79.1527163056	3.0	3.0	3.0
-尿潴留	urinary retention	53.4332918452	3.0	3.0	3.0
-乙酰半胱氨酸	acetylcysteine	100.636942675	0.0	0.0	0.0
-腹主动脉瘤	abdominal aortic aneurysm	53.4332918452	3.0	3.0	3.0
-曲霉	aspergillus	100.636942675	0.0	0.0	0.0
-水痘	varicella/chickenpox	77.7945116525	3.0	3.0	3.0
-膈神经	phrenic nerve	75.1122819667	3.0	3.0	3.0
-转氨酶	aminotransferase	100.636942675	0.0	0.0	0.0
-间变	anaplasia	96.0366517137	3.0	3.0	3.0
-胸骨柄	manubrium	53.433291845	3.0	3.0	3.0
-肩周炎	scapulohumeral periarthritis	100.67315675	3.0	1.0	1.0
-肥胖	adiposity	100.636942675	0.0	0.0	0.0
-湿疹	eczema	106.010103042	3.0	3.0	1.0
-印戒细胞癌	signet-ring cell carcinoma	73.433291845	3.0	3.0	3.0
-姜片虫	Fasciolopsis	126.270772533	3.0	1.0	1.0
-憩室	diverticulum	95.1877536652	3.0	3.0	3.0
-神经梅毒	neurosyphilis	75.0	5.0	5.0	5.0
-再生障碍性贫血	aplastic anemia	53.4332918452	3.0	3.0	3.0
-小儿麻痹症	poliomyelitis	91.6427513236	3.0	1.0	1.0
-扩张型心肌病	dilated cardiomyopathy	45.1122819667	3.0	3.0	3.0
-包块	mass	75.9526181008	3.0	3.0	3.0
-破伤风	tetanus	38.8254394876	5.0	5.0	5.0
-心包膜	pericardium	48.8254394876	4.0	4.0	4.0
-截肢	amputation	23.4332918452	3.0	3.0	3.0
-紫杉醇	paclitaxel	77.7945116525	3.0	3.0	3.0
-脂溢性皮炎	seborrheic dermatitis	38.8254394876	6.0	5.0	5.0
-急腹症	acute abdomen	100.636942675	0.0	0.0	0.0
-黑素瘤	melanoma	75.0	4.0	4.0	4.0
-交感神经	sympathetic nerve	23.4332918452	3.0	3.0	3.0
-气胸	pneumothorax	23.4332918452	3.0	3.0	3.0
-吞咽困难	dysphagia	88.6369426752	3.0	3.0	1.0
-腹胀	abdominal distention	75.9526181008	3.0	3.0	3.0
-腹泻	diarrhea	88.6369426752	3.0	3.0	1.0
-天花	smallpox/variola	76.8375738533	3.0	3.0	3.0
-重症肌无力	myasthenia gravis	33.8254394876	3.0	3.0	3.0
-垂体	hypophysis/pituitary gland	83.8254394876	4.0	4.0	4.0
-荨麻疹	hives/urticaria	76.8375738533	3.0	3.0	3.0
-绒膜癌	choriocarcinoma	23.4332918452	3.0	3.0	3.0
-蛛网膜下腔	subarachnoid space	70.0600175106	4.0	2.0	2.0
-会厌	epiglottis	77.7945116525	3.0	3.0	3.0
-青霉素	penicillin	63.8254394876	5.0	2.0	3.0
-胃液	gastric juice	77.7945116525	3.0	3.0	3.0
-肿块	lump	90.0600175106	3.0	1.0	1.0
-空肠	jejunum	21.9944429243	3.0	3.0	3.0
-前列腺增生	benign prostatic hyperplasia	128.107448174	3.0	1.0	1.0
-喹诺酮	quinolone	33.8254394876	3.0	3.0	3.0
-泻药	laxative	75.1122819667	3.0	3.0	3.0
-骨质疏松	osteoporosis	92.2079834364	6.0	4.0	1.0
-黄斑	macula lutea	118.794511652	3.0	1.0	1.0
-踝关节背伸	ankle dorsiflexion	95.1877536652	3.0	3.0	3.0
-腹穿	paracentesis/peritoneocentesis	75.9526181008	3.0	3.0	3.0
-月经过少	hypomenorrhea	106.010103042	3.0	3.0	1.0
-白癜风	leucoderma	75.0	5.0	5.0	5.0
-白内障	cataract	75.0	4.0	4.0	4.0
-白血球	leukocyte/white blood cells	88.5996843182	5.0	4.0	1.0
-化疗	chemotherapy	23.4332918452	3.0	3.0	3.0
-肺气肿	emphysema	23.4332918452	3.0	3.0	3.0
-贲门失迟缓	achalasia	100.636942675	0.0	0.0	0.0
-脑梗	cerebral infarction	77.7945116525	3.0	3.0	3.0
-炎症因子	inflammatory factor	77.7945116525	3.0	3.0	3.0
-碱性磷酸酶	alkaline phosphatase	100.636942675	0.0	0.0	0.0
-触诊	palpation	75.9526181008	3.0	3.0	3.0
-气管切开术	tracheotomy	53.4332918452	3.0	3.0	3.0
-瘘管	fistula	13.4332918452	3.0	3.0	3.0
-马尾	cauda equina	100.636942675	0.0	0.0	0.0
-羊膜	amniotic membrane	53.4332918452	3.0	3.0	3.0
-白化病	albinism	88.0	3.0	3.0	1.0
-脑积水	hydrocephalus	33.8254394876	3.0	3.0	3.0
-草药	herbal medicine	100.636942675	0.0	0.0	0.0
-闭经	amenorrhea/menostasis	76.8375738533	3.0	3.0	3.0
-棘形红细胞	acanthocyte	45.1122819667	3.0	3.0	3.0
-肾病	nephrosis	50.545167562	3.0	3.0	3.0
-偏头痛	migraine	100.636942675	0.0	0.0	0.0
-心肌	myocardium/myocardia	23.4332918452	3.0	3.0	3.0
-失神发作	absence seizure	45.1122819667	3.0	3.0	3.0
-脑脊液	cerebrospinal fluid	23.4332918452	3.0	3.0	3.0
-地塞米松	dexamethasone	118.023414561	3.0	1.0	1.0
-链球菌	streptococcus	75.0	4.0	4.0	4.0
-括约肌	sphincter	75.0	5.0	5.0	5.0
+#碱中毒	alkalosis	55.6349206349	4.0	2.0	2.0
+视网膜母细胞瘤	retinoblastoma	76.1094371636	3.0	3.0	3.0
+鳞癌	squamous carcinoma	24.7051551553	3.0	3.0	3.0
+产褥期	puerperium	72.9146146337	4.0	2.0	2.0
+棘形红细胞	acanthocyte	46.3841452768	3.0	3.0	3.0
+痛风	gout	35.0973027977	3.0	3.0	3.0
+拮抗剂	antagonist	75.6349206349	3.0	2.0	1.0
+胃液	gastric juice	79.0663749626	3.0	3.0	3.0
+筋膜	fascia	24.7051551553	3.0	3.0	3.0
+味觉退减	hypogeusia	75.6349206349	5.0	2.0	2.0
+腹股沟疝	inguinal hernia	69.9088059853	4.0	4.0	2.0
+胃动力障碍	stomach adynamia	75.6349206349	2.0	1.0	1.0
+空肠	jejunum	23.2663062344	3.0	3.0	3.0
+颅内出血	intracerebral hemorrhage	75.6349206349	4.0	2.0	2.0
+胰腺炎	pancreatitis	69.9088059853	4.0	4.0	2.0
+直肠	rectum	24.7051551553	3.0	3.0	3.0
+畸形	malformation	44.7051551551	3.0	3.0	3.0
+急腹症	acute abdomen	75.6349206349	2.0	1.0	1.0
+神经梅毒	neurosyphilis	76.2718633101	5.0	5.0	5.0
+萎缩	atrophy	78.1094371634	3.0	3.0	3.0
+卵圆孔	oval foramen	-15.2948448447	4.0	4.0	4.0
+白血病	leukemia	76.2718633101	4.0	4.0	4.0
+坐骨神经	sciatic nerve	71.3318808207	4.0	2.0	2.0
+髋关节内收	hip adduction	6.3841452768	4.0	4.0	4.0
+乳酸	lactic acid	76.2718633101	5.0	5.0	5.0
+迷走神经	vagus nerve	76.2718633101	4.0	4.0	4.0
+蛛网膜下腔	subarachnoid space	71.3318808207	4.0	2.0	2.0
+粒细胞	granulocyte	55.6349206349	2.0	2.0	2.0
+肝硬化	liver cirrhosis	76.2718633101	5.0	5.0	5.0
+尺骨	ulna	72.9146146337	4.0	2.0	2.0
+发作	seizure	24.7051551553	3.0	3.0	3.0
+下丘脑	hypothalamus	-33.7281366899	6.0	6.0	6.0
+偏头痛	migraine	75.6349206349	3.0	2.0	2.0
+腹胀	abdominal distention	77.2244814109	3.0	3.0	3.0
+骨穿	bone marrow aspiration	-16.7336937656	4.0	4.0	4.0
+截肢	amputation	24.7051551553	3.0	3.0	3.0
+败血症	sepsis	79.0663749626	3.0	3.0	3.0
+抗胰蛋白酶	antitrypsin	77.2244814109	3.0	3.0	3.0
+乙型肝炎	hepatitis B	24.7051551553	3.0	3.0	3.0
+铜绿假单胞菌	pseudomonas aeruginosa	76.2718633101	5.0	4.0	4.0
+心肌	myocardium/myocardia	24.7051551553	3.0	3.0	3.0
+呼吸困难	dyspnea	75.6349206349	5.0	2.0	1.0
+胸穿	thoracentesis	77.2244814109	3.0	3.0	3.0
+脑脊液	cerebrospinal fluid	24.7051551553	3.0	3.0	3.0
+窦房结	atrionector/sinoatrial node	69.9088059853	4.0	4.0	2.0
+胆固醇	cholesterol	76.2718633101	5.0	5.0	5.0
+免疫缺陷	immunodeficiency	75.6349206349	3.0	1.0	1.0
+特发性肺纤维化	idiopathic pulmonary fibrosis	23.2663062344	3.0	3.0	3.0
+触诊	palpation	77.2244814109	3.0	3.0	3.0
+间变	anaplasia	57.3085150238	4.0	4.0	4.0
+乙酰胆碱	acetylcholine	75.6349206349	3.0	2.0	2.0
+肥大细胞	mast cell/mastocyte	41.8170308721	3.0	3.0	3.0
+曲霉	aspergillus	75.6349206349	2.0	1.0	1.0
+纵膈	mediastinum	24.7051551553	3.0	3.0	3.0
+黄体	corpus luteum	78.1094371634	3.0	3.0	3.0
+肾结石	kidney calculi	35.0973027977	3.0	3.0	3.0
+静脉曲张	varices	69.9088059853	5.0	4.0	2.0
+结核分枝杆菌	Mycobacterium tuberculosis	59.0663749626	4.0	4.0	4.0
+肠系膜	mesentery	76.2718633101	4.0	4.0	4.0
+糖尿病	diabetes mellitus	69.9088059853	4.0	4.0	2.0
+失眠	insomnia	74.3459770403	4.0	4.0	2.0
+佝偻病	rickets	78.1094371634	3.0	3.0	3.0
+红霉素	erythromycin	65.0973027977	4.0	3.0	3.0
+地塞米松	dexamethasone	75.6349206349	4.0	2.0	2.0
+丘脑	thalamus	26.2718633101	5.0	5.0	5.0
+帕金森	Parkinson's disease	74.3459770403	5.0	4.0	2.0
+顶叶	parietal lobe	26.2718633101	5.0	5.0	5.0
+三叉神经	trigeminal nerve	50.0973027977	4.0	4.0	4.0
+酮症酸中毒	ketoacidosis	56.2718633101	2.0	2.0	2.0
+炎症因子	inflammatory factor	79.0663749626	3.0	3.0	3.0
+肾上腺素	adrenaline	24.7051551553	3.0	3.0	3.0
+带状疱疹	herpes zoster	44.7051551553	3.0	3.0	3.0
+前列腺增生	benign prostatic hyperplasia	45.6349206349	5.0	3.0	3.0
+5-氨基水杨酸	5-ASA/5-aminosalicylic acid	79.0663749626	3.0	3.0	3.0
+惊厥	convulsion	24.7051551553	3.0	3.0	3.0
+绒膜癌	choriocarcinoma	24.7051551553	3.0	3.0	3.0
+蛛网膜	arachnoid	24.7051551553	3.0	3.0	3.0
+醛固酮	aldosterone	56.2718633101	2.0	2.0	2.0
+粘膜	mucosa	24.7051551553	3.0	3.0	3.0
+腮腺炎	parotitis	40.0973027977	5.0	5.0	5.0
+外展神经	abducens nerve	75.6349206349	6.0	4.0	2.0
+主动脉夹层	aorta dissection	76.2718633101	5.0	5.0	5.0
+关节炎	arthritis	-15.2948448447	4.0	4.0	4.0
+尿毒症	uremia	24.7051551553	3.0	3.0	3.0
+侏儒症	nanism/dwarfism	26.2718633101	5.0	5.0	5.0
+阑尾	appendix	46.3841452768	3.0	3.0	3.0
+麻风	leprosy	79.0663749626	3.0	3.0	3.0
+横隔	diaphragm	23.2663062344	3.0	3.0	3.0
+化疗	chemotherapy	24.7051551553	3.0	3.0	3.0
+动脉瘤	aneurysm	24.7051551553	3.0	3.0	3.0
+蛋白酶	protease/proteinase	69.7051551551	3.0	3.0	3.0
+肾盂肾炎	nephropyelitis	45.0	11.0	7.0	3.0
+失神发作	absence seizure	46.3841452768	3.0	3.0	3.0
+十二指肠	duodenum	16.2718633101	6.0	6.0	6.0
+阻塞性睡眠暂停综合征	obstructive sleep apnea syndrome	-4.9026972023	4.0	4.0	4.0
+肺气肿	emphysema	24.7051551553	3.0	3.0	3.0
+结肠	colon	11.8170308721	3.0	3.0	3.0
+促肾上腺皮质激素	adrenocorticotrophic hormone/ACTH	75.6349206349	2.0	1.0	1.0
+多囊卵巢综合征	polycystic ovary syndrome	72.9146146337	4.0	2.0	2.0
+乳糖不耐受	lactose intolerance	75.0	7.0	5.0	2.0
+草药	herbal medicine	75.6349206349	3.0	2.0	1.0
+单纯疱疹	herpes simplex	26.2718633101	3.0	3.0	3.0
+脱髓鞘	demyelination	56.2718633101	2.0	2.0	2.0
+憩室	diverticulum	56.4596169753	4.0	4.0	4.0
+酸中毒	acidosis	56.2718633101	2.0	2.0	2.0
+热带的	tropical	56.2718633101	2.0	2.0	2.0
+腹水	ascites	23.2663062344	3.0	3.0	3.0
+间质	interstitium	46.3841452768	3.0	3.0	3.0
+胸骨	sternum	23.2663062344	3.0	3.0	3.0
+肠梗阻	ileus/intestinal obstruction	44.7051551551	3.0	3.0	3.0
+心绞痛	angina pectoris/angor pectoris	75.0	7.0	5.0	2.0
+血小板	platelet	16.2718633101	6.0	6.0	6.0
+化生	metaplasia	78.1094371634	3.0	3.0	3.0
+哮喘	asthma	-5.29484484472	3.0	3.0	3.0
+房性早搏	premature atrial contraction	73.0484843403	6.0	5.0	2.0
+贲门	cardia	-15.2948448447	4.0	4.0	4.0
+踝关节跖曲	ankle plantar flexion	75.6349206349	5.0	4.0	1.0
+转氨酶	aminotransferase	75.6349206349	3.0	1.0	1.0
+吞咽困难	dysphagia	69.9088059853	4.0	4.0	2.0
+肾炎	nephritis	50.0973027977	4.0	4.0	4.0
+胃下垂	gastroptosis	75.6349206349	6.0	3.0	2.0
+幽门螺杆菌	helicobacter pylori/helicobacter pylorus	-5.9336250374	4.0	4.0	4.0
+鼻炎	rhinitis	76.2718633101	5.0	5.0	5.0
+神经麻痹	nerve palsy/palsies	6.3841452768	4.0	4.0	4.0
+肝颈静脉回流征	hepatojugular reflux/abdominojugular reflux	77.2244814109	3.0	3.0	3.0
+脓肿	abscess	76.2718633101	4.0	4.0	4.0
+湿疹	eczema	5.6349206349	6.0	6.0	4.0
+青霉素	penicillin	65.0973027977	5.0	2.0	3.0
+枕叶	occipital lobe	55.0973027977	3.0	3.0	3.0
+系统性红斑狼疮	systemic lupus erythematosus	61.8170308721	3.0	3.0	3.0
+卟啉症	porphyria	68.6349206349	4.0	3.0	2.0
+结节	nodule	61.8170308721	3.0	3.0	3.0
+黄斑	macula lutea	75.6349206349	4.0	2.0	2.0
+月经过多	menorrhagia	68.0	6.0	5.0	2.0
+宫外孕	extrauterine pregnancy	76.2718633101	5.0	4.0	4.0
+急性肾小管坏死	acute tubular necrosis/ATN	26.2718633101	3.0	3.0	3.0
+味觉丧失	ageusia	26.2718633101	3.0	3.0	3.0
+扩张型心肌病	dilated cardiomyopathy	46.3841452768	3.0	3.0	3.0
+伸髋关节	hip extension	36.3841452768	4.0	4.0	4.0
+纤维瘤	fibroma	-16.7336937656	4.0	4.0	4.0
+肌无力	myasthenia	56.2718633101	2.0	2.0	2.0
+阿米巴	amoeba	75.6349206349	5.0	4.0	2.0
+骨质疏松	osteoporosis	73.4798467465	7.0	5.0	2.0
+冠状动脉	coronary artery	73.4798467465	7.0	5.0	2.0
+链球菌	streptococcus	76.2718633101	4.0	4.0	4.0
+粒性白细胞	granulocyte/granular leukocytes/granular leukocyte	76.2718633101	4.0	4.0	4.0
+子宫内膜异位	endometriosis	24.7051551553	3.0	3.0	3.0
+压疮	bedsore	23.2663062344	3.0	3.0	3.0
+扁桃体	tonsil	54.7051551553	3.0	3.0	3.0
+支气管扩张	bronchiectasia	75.0	8.0	3.0	2.0
+神经性食欲缺乏	anorexia nervosa	40.4245796157	4.0	4.0	4.0
+狂犬病	rabies	54.7051551553	3.0	3.0	3.0
+气胸	pneumothorax	24.7051551553	3.0	3.0	3.0
+气管切开术	tracheotomy	54.7051551553	3.0	3.0	3.0
+痤疮	acne	73.4798467465	7.0	6.0	2.0
+输卵管	uterine tube/fallopian tube	96.8	6.0	4.0	1
+呕血	hematemesis	75.0	8.0	4.0	2.0
+血浆	plasma	76.2718633101	4.0	4.0	4.0
+淋巴结	lymph node	59.0663749626	4.0	4.0	4.0
+下颌骨	mandible	76.2718633101	4.0	4.0	4.0
+肺水肿	pulmonary oedema/pulmonary edema	56.2718633101	2.0	2.0	2.0
+腹直肌	rectus abdominis	54.7051551553	3.0	3.0	3.0
+不动杆菌属	Acinetobacter	75.6349206349	3.0	1.0	1.0
+自身抗体	autoantibody	26.2718633101	3.0	3.0	3.0
+腮腺	parotid gland	75.6349206349	5.0	4.0	2.0
+骨髓瘤	myeloma	68.0	7.0	6.0	2.0
+瘘管	fistula	14.7051551553	3.0	3.0	3.0
+神经衰弱	neurasthenia	-4.9026972023	5.0	5.0	5.0
+梅毒	syphilis	23.2663062344	3.0	3.0	3.0
+血清	serum	55.0973027977	3.0	3.0	3.0
+胸膜积液	pleural effusion	69.2718633101	4.0	2.0	2.0
+输精管	ductus deferens/vas deferens	5.0	9.0	5.0	4.0
+新月体	cresent	71.4657505272	6.0	5.0	2.0
+疟疾	malaria	64.7051551551	3.0	3.0	3.0
+早搏	premature beat/premature contraction	69.9088059853	4.0	4.0	2.0
+心包膜	pericardium	50.0973027977	4.0	4.0	4.0
+痔疮	haemorrhoid/hemorrhoid	75.0	11.0	6.0	2.0
+小脑	cerebellum	23.2663062344	3.0	3.0	3.0
+更年期	menopause	54.7051551553	3.0	3.0	3.0
+姜片虫	Fasciolopsis	75.0	11.0	4.0	2.0
+闭经	amenorrhea/menostasis	38.1094371634	4.0	4.0	4.0
+白化病	albinism	69.2718633101	4.0	4.0	2.0
+垂体	hypophysis/pituitary gland	35.0973027977	5.0	5.0	5.0
+脑梗	cerebral infarction	79.0663749626	3.0	3.0	3.0
+胆囊	gall bladder/cholecyst	76.2718633101	4.0	4.0	4.0
+腹穿	paracentesis/peritoneocentesis	77.2244814109	3.0	3.0	3.0
+听诊器	stethoscope	77.2244814109	3.0	3.0	3.0
+青光眼	glaucoma	44.7051551551	3.0	3.0	3.0
+羊膜	amniotic membrane	54.7051551553	3.0	3.0	3.0
+急性呼吸窘迫综合征	acute respiratory distress syndrome/ARDS	75.6349206349	3.0	2.0	2.0
+肌酐	creatinine	56.2718633101	2.0	2.0	2.0
+强直性脊柱炎	ankylosing spondylitis	-4.9026972023	6.0	5.0	5.0
+曲霉病	aspergillosis	56.2718633101	2.0	2.0	2.0
+头孢菌素	cephalosporin	-4.9026972023	4.0	4.0	4.0
+颞叶	temporal lobe	76.2718633101	4.0	4.0	4.0
+透析	dialysis	23.2663062344	3.0	3.0	3.0
+嗜碱性细胞	basophil	26.2718633101	5.0	5.0	5.0
+食管	esophagus	14.7051551553	4.0	4.0	4.0
+胸骨柄	manubrium	14.7051551551	4.0	4.0	4.0
+巨人症	gigantism	45.6349206349	6.0	4.0	3.0
+氯吡格雷	clopidogrel	75.6349206349	4.0	1.0	1.0
+肛门	anus	56.4596169753	4.0	4.0	4.0
+印戒细胞癌	signet-ring cell carcinoma	34.7051551551	4.0	4.0	4.0
+肺炎	pneumonia	76.2718633101	4.0	4.0	4.0
+甲亢	hyperthyroidism	24.7051551553	3.0	3.0	3.0
+肢端肥大症	acromegaly	75.6349206349	2.0	1.0	1.0
+肾积水	hydronephrosis	68.0	6.0	5.0	2.0
+间质组织	interstitium	76.3841452768	3.0	3.0	3.0
+腰大肌	psoas major	55.6349206349	6.0	5.0	2.0
+角膜	cornea	23.2663062344	3.0	3.0	3.0
+脑积水	hydrocephalus	35.0973027977	3.0	3.0	3.0
+隐球菌	cryptococcus	76.2718633101	4.0	4.0	4.0
+曲髋关节	hip flexion	36.3841452768	4.0	4.0	4.0
+上颌骨	maxilla	76.2718633101	4.0	4.0	4.0
+黄曲霉毒素	aflatoxin	75.6349206349	3.0	1.0	1.0
+疱疹	herpes	79.0663749626	3.0	3.0	3.0
+脾脏	spleen	54.7051551553	3.0	3.0	3.0
+腺癌	adenocarcinoma	54.7051551553	3.0	3.0	3.0
+三角肌	deltoid	54.7051551553	3.0	3.0	3.0
+棘皮症	acanthosis	76.3841452768	3.0	3.0	3.0
+异型性	atypia	55.6349206349	5.0	5.0	2.0
+糖皮质激素	glucocorticoid	76.2718633101	4.0	4.0	4.0
+触摸痛	allodynia	75.6349206349	3.0	1.0	1.0
+喹诺酮	quinolone	35.0973027977	3.0	3.0	3.0
+紫癜	purpura	75.6349206349	4.0	2.0	2.0
+结缔组织	connective tissue	48.1979327378	4.0	4.0	4.0
+体外循环	extracorporeal circulation	54.7051551553	3.0	3.0	3.0
+水痘	varicella/chickenpox	79.0663749626	3.0	3.0	3.0
+尿酸	uric acid	35.0973027977	3.0	3.0	3.0
+咯血	hemoptysis	65.0973027977	5.0	4.0	3.0
+腹主动脉瘤	abdominal aortic aneurysm	54.7051551553	3.0	3.0	3.0
+皮肤的	cutaneous	76.3841452768	3.0	3.0	3.0
+羊膜穿刺术	amniocentesis	14.7051551553	4.0	4.0	4.0
+消融	ablation	76.3841452768	3.0	3.0	3.0
+交感神经	sympathetic nerve	-15.2948448447	4.0	4.0	4.0
+脂溢性皮炎	seborrheic dermatitis	40.0973027977	6.0	5.0	5.0
+天花	smallpox/variola	78.1094371634	3.0	3.0	3.0
+会厌	epiglottis	39.0663749626	4.0	4.0	4.0
+白癜风	leucoderma	76.2718633101	5.0	5.0	5.0
+泻药	laxative	76.3841452768	3.0	3.0	3.0
+支气管	bronchus	72.9146146337	4.0	2.0	2.0
+实质	parenchyma	75.6349206349	4.0	4.0	2.0
+谵妄	delirium	56.2718633101	2.0	2.0	2.0
+肿块	lump	71.3318808207	4.0	2.0	2.0
+额叶	frontal lobe	45.0973027977	4.0	4.0	4.0
+类风湿性关节炎	rheumatoid arthritis	72.9146146337	4.0	2.0	2.0
+（受体）激动剂	agonist	56.2718633101	2.0	2.0	2.0
+锁骨	clavicle	61.8170308721	3.0	3.0	3.0
+梅毒螺旋体	treponema pallidum	45.0973027977	6.0	4.0	4.0
+黄疸	jaundice	24.7051551553	3.0	3.0	3.0
+踝关节背伸	ankle dorsiflexion	6.4596169753	5.0	5.0	5.0
+前列腺	prostate	78.1094371634	3.0	3.0	3.0
+幽门	pylorus	75.6349206349	7.0	3.0	2.0
+窒息	asphyxia/apnea	-24.9026972023	6.0	6.0	6.0
+视网膜	retina	79.0663749626	3.0	3.0	3.0
+肠易激综合征	irritable bowel syndrome	74.3459770403	4.0	4.0	2.0
+再生障碍性贫血	aplastic anemia	54.7051551553	3.0	3.0	3.0
+白内障	cataract	76.2718633101	4.0	4.0	4.0
+半月板	meniscus	76.2718633101	4.0	4.0	4.0
+紫杉醇	paclitaxel	79.0663749626	3.0	3.0	3.0
+尿潴留	urinary retention	-35.2948448447	5.0	5.0	5.0
+乙酰半胱氨酸	acetylcysteine	38.6349206349	5.0	4.0	3.0
+髋关节外展	hip abduction	75.6349206349	4.0	4.0	2.0
+网膜	omentum	69.9088059853	5.0	4.0	2.0
+黑素瘤	melanoma	76.2718633101	4.0	4.0	4.0
+骨科	orthopaedics/orthopedics	75	6.0	4.0	1.0
+醛固酮增多症	aldosteronism	75.6349206349	6.0	3.0	2.0
+碱性磷酸酶	alkaline phosphatase	75.6349206349	2.0	1.0	1.0
+瘫痪	paralysis	76.2718633101	4.0	4.0	4.0
+息肉	polypus/polyp	50.0973027977	4.0	4.0	4.0
+胸腺	thymus	54.7051551553	3.0	3.0	3.0
+脑瘫	cerebral palsy	24.7051551553	3.0	3.0	3.0
+斜方肌	trapezius	44.7051551553	3.0	3.0	3.0
+嗜酸性细胞	eosinophil	26.2718633101	5.0	5.0	5.0
+华法林	warfarin	75.6349206349	2.0	1.0	1.0
+腺苷	adenosine	56.2718633101	2.0	2.0	2.0
+血管瘤	hemangioma	64.7051551551	3.0	3.0	3.0
+破伤风	tetanus	40.0973027977	5.0	5.0	5.0
+阿兹海默症	Alzheimer's disease	55.0973027977	3.0	3.0	3.0
+荨麻疹	hives/urticaria	38.0	7.0	6.0	3.0
+白细胞	leukocyte/white blood cells	69.8715476283	6.0	5.0	2.0
+腹膜	peritoneum	39.9088059853	6.0	5.0	3.0
+地中海贫血	thalassemia	64.7051551551	3.0	3.0	3.0
+括约肌	sphincter	76.2718633101	5.0	5.0	5.0
+肥胖	adiposity	55.6349206349	3.0	2.0	2.0
+肩周炎	scapulohumeral periarthritis	75.0	6.0	3.0	2.0
+盐皮质激素	mineralocorticoid	76.2718633101	4.0	4.0	4.0
+水肿	edema	76.2718633101	4.0	4.0	4.0
+重症肌无力	myasthenia gravis	-4.9026972023	4.0	4.0	4.0
+小儿麻痹症	poliomyelitis	42.9146146337	5.0	3.0	3.0
+过敏反应	anaphylaxis/allergy	75.6349206349	3.0	1.0	1.0
+贲门失迟缓	achalasia	75.6349206349	3.0	1.0	1.0
+粒细胞减少症	granulocytopenia/agranulocytosis	75.6349206349	3.0	1.0	1.0
+大肠埃希菌	Escherichia coli	75.6349206349	5.0	4.0	2.0
+马尾	cauda equina	56.2718633101	2.0	2.0	2.0
+包块	mass	37.2244814109	4.0	4.0	4.0
+瓣膜	valve	56.2718633101	2.0	2.0	2.0
+月经	menorrhea/menstruation	38.1094371634	4.0	4.0	4.0
+月经过少	hypomenorrhea	45.6349206349	5.0	5.0	3.0
+脑膜炎	meningitis	54.7051551553	3.0	3.0	3.0
+肾衰竭	renal failure	75.6349206349	3.0	2.0	1.0
+肺栓塞	pulmonary embolism	54.7051551553	3.0	3.0	3.0
+椎间盘	intervertebral disc	75.6349206349	5.0	4.0	2.0
+金黄色葡萄球菌	staphylococcus aureus	75.6349206349	10.0	5.0	2.0
+内窥镜	endoscope	39.8715476283	4.0	3.0	3.0
+胸主动脉	thoracic aorta	54.7051551553	3.0	3.0	3.0
+癫痫	epilepsy	54.7051551553	3.0	3.0	3.0
+钾	kalium/potassium	75.6349206349	3.0	1.0	1.0
+膈神经	phrenic nerve	76.3841452768	3.0	3.0	3.0
+听诊	auscultation	75.0	6.0	5.0	2.0
+计算力缺失	acalculia	76.3841452768	3.0	3.0	3.0
+腹泻	diarrhea	69.9088059853	4.0	4.0	2.0
+针灸	acupuncture	56.2718633101	2.0	2.0	2.0
+肾病	nephrosis	51.8170308721	3.0	3.0	3.0
+中性粒细胞	neutrophil	76.2718633101	5.0	4.0	4.0
+巨细胞病毒	cytomegalovirus/CMV
+呼吸道合胞病毒	respiratory syncytial virus/RSV
+血液科	hematology department
