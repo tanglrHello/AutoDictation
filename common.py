@@ -86,6 +86,8 @@ def get_word_infos(encoding, word_fileindex, index_in_file):
 
         if line.strip() == "":
             continue
+        if line.startswith("#"):
+            continue
 
         info = line.strip().split('\t')
         assert len(info) == 1 + len(index_in_file)
@@ -146,9 +148,6 @@ def init_real_dictate_words(words, index_in_list):
         score = words[word][index_in_list["score"]]
         total_dictation_time = words[word][index_in_list["total_time"]]
 
-        if word.startswith("#"):
-            continue
-
         if score > 80 or total_dictation_time < 2:
             words_to_real_dictate[word] = words[word]
         elif word.startswith("!") and total_dictation_time < 5:
@@ -158,14 +157,23 @@ def init_real_dictate_words(words, index_in_list):
         word_list = sorted(words_to_real_dictate.items(), key=lambda x:float(x[1][index_in_list["total_time"]]))
         words_to_real_dictate = dict(word_list[:50])
 
-    if len(words_to_real_dictate) < 20:
-        word_list = words.items()
-        to_add_num = min(20 - len(words_to_real_dictate), len(words) - len(words_to_real_dictate))
-        while to_add_num > 0:
-            word_info = random.choice(word_list)
-            if word_info[0] not in words_to_real_dictate:
-                words_to_real_dictate[word_info[0]] = word_info[1]
-                to_add_num -= 1
+    # add at least 5 words according to score
+    word_list = sorted(words.items(), key=lambda x: float(x[1][index_in_list["score"]]))
+    to_add_num = max(5, (20 - len(words_to_real_dictate)) / 2)
+    for word in word_list:
+        if word[0] not in words_to_real_dictate:
+            words_to_real_dictate[word[0]] = word[1]
+            to_add_num -= 1
+            if to_add_num == 0:
+                break
+
+    # add at least 5 words randomly
+    to_add_num = max(5, (20 - len(words_to_real_dictate)) / 2)
+    while to_add_num > 0:
+        new_word = random.choice(word_list)
+        if new_word[0] not in words_to_real_dictate:
+            words_to_real_dictate[new_word[0]] = new_word[1]
+            to_add_num -= 1
 
     return words_to_real_dictate
 
