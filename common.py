@@ -158,7 +158,7 @@ def init_real_dictate_words(words, index_in_list):
         words_to_real_dictate = dict(word_list[:50])
 
     # add at least 5 words according to score
-    word_list = sorted(words.items(), key=lambda x: float(x[1][index_in_list["score"]]))
+    word_list = sorted(words.items(), key=lambda x: float(x[1][index_in_list["score"]]), reverse=True)
     to_add_num = max(5, (20 - len(words_to_real_dictate)) / 2)
     for word in word_list:
         if word[0] not in words_to_real_dictate:
