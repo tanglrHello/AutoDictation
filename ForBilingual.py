@@ -23,12 +23,25 @@ def main():
     init_words()
     update_word_infos_by_time(INDEX_IN_FILE['score'])
     encoding = choose_encoding()
+    mode = choose_mode()
     print "***** You can type in 'exit()' to end the dictation *****"
     words = get_word_infos(encoding, WORD_INDEX_INFILE, INDEX_IN_FILE)
-    dictation(words, encoding, INDEX_IN_LIST, "bilingual")
+    dictation(words, encoding, INDEX_IN_LIST, "bilingual", mode)
     update_word_infos(words, encoding)
     if os.path.exists("key.inf"):
         os.remove("key.inf")
+
+
+def choose_mode():
+    mode = False
+    while mode != "1" and mode != "2":
+        mode = raw_input("Choose dictation mode: 1.spell mode 2.no spell mode: ")
+
+    if mode == "1":
+        mode = "spell"
+    else:
+        mode = "no_spell"
+    return mode
 
 
 if __name__ == "__main__":

@@ -1,0 +1,70 @@
+我不明白	I don't get it.	55.0	2.0	2.0	2.0
+你真了不起	You're amazing.	55.0	2.0	2.0	2.0
+拜托,你怎么回事啊	Come on. What's your problem?	55.0	2.0	2.0	2.0
+这让我抓狂	It drives me mad.	75.0	1.0	1.0	1.0
+保守秘密	Keep it secret.	75.0	1.0	1.0	1.0
+我全心全意地爱你	I love you with all my heart.	75.0	1.0	1.0	1.0
+试一试吧	Just give it a try.	75.0	1.0	1.0	1.0
+很抱歉打扰你	I'm sorry to bother you.	75.0	1.0	1.0	1.0
+人们常说有钱能使鬼推磨	People always say that money talks.	75.0	1.0	1.0	1.0
+晚饭做好了	Dinner's ready.	75.0	1.0	1.0	1.0
+让我瞧瞧你有什么本事	Show me what you got!	75.0	1.0	1.0	1.0
+你是怎么熬过来的	How did you get through it?	75.0	1.0	1.0	1.0
+迟到总比不到好	Better late than never.	75.0	1.0	1.0	1.0
+稍等我一下	Give me a minute.	75.0	1.0	1.0	1.0
+想都别想	Don't even think about it!	121.0	3.0	1.0	1
+你吓死我了	You scared the heck out of me!	75.0	1.0	1.0	1.0
+给你	Here you go.	75.0	1.0	1.0	1.0
+我的背疼	My back hurts.	75.0	1.0	1.0	1.0
+滚蛋	Get out of here	75.0	1.0	1.0	1.0
+你是我的一切	You mean the world to me.	75.0	1.0	1.0	1.0
+天气怎么样	What's the weather?	75.0	1.0	1.0	1.0
+等一会儿	Hold on a sec.	75.0	1.0	1.0	1.0
+你丫死定了!	You're a dead meat!/You're a dead man!	75.0	1.0	1.0	1.0
+我们有麻烦了	We are in trouble	75.0	1.0	1.0	1.0
+他上电视了	He appeared on television.	75.0	1.0	1.0	1.0
+我在待业中	I'm between jobs.	75.0	1.0	1.0	1.0
+你今晚看起来很漂亮	You look great tonight.	75.0	1.0	1.0	1.0
+给我看看你的照片	Show me your photo.	75.0	1.0	1.0	1.0
+你能不能消停一下	Would you just stop?	75.0	1.0	1.0	1.0
+待着别动	Stay put	110.0	2.0	1.0	1
+我把她惹哭了	I made her cry.	75.0	1.0	1.0	1.0
+省省吧,我根本不关心	Save it! I couldn't care less.	110.0	2.0	1.0	1
+你明天有空吗	Are you free tomorrow?	75.0	1.0	1.0	1.0
+今天早上我赖床了	I slept in this morning.	75.0	1.0	1.0	1.0
+他是我弟弟	He's my younger brother.	75.0	1.0	1.0	1.0
+我不会说出去的	I'll keep my mouth shut.	75.0	1.0	1.0	1.0
+你怎么看	What's your opinion?	75.0	1.0	1.0	1.0
+我没心情	I'm not in the mood.	75.0	1.0	1.0	1.0
+享受生活的点滴	Enjoy the little things in life.	75.0	1.0	1.0	1.0
+我得吃点东西	I gotta eat sth.	75.0	1.0	1.0	1.0
+别跟我玩阴的	Don't play dirty with me.	75.0	1.0	1.0	1.0
+这个裙子看起来绝对赞爆了	This dress look absolutely gorgeous!	75.0	1.0	1.0	1.0
+小点声儿	Keep your voice down.	110.0	2.0	1.0	1
+我要举办一个聚会	I'm gonna throw a party.	75.0	1.0	1.0	1.0
+你觉得怎么样	What do you say?	75.0	1.0	1.0	1.0
+放松点儿	Just relax	75.0	1.0	1.0	1.0
+再好不过了	Couldn't be better.	75.0	1.0	1.0	1.0
+你是个幸运儿	You are a lucky dog.	75.0	1.0	1.0	1.0
+我可不是三岁小孩	I wasn't born yesterday.	75.0	1.0	1.0	1.0
+英雄所见略同	Great minds think alike.	75.0	1.0	1.0	1.0
+我挺你	I got your back.
+别丢人现眼了	Don't make of fool of yourself.
+帮我一把	Help me out.
+请给我一张去机场的票	A ticket to the airport, please.
+昨晚只有10个人到场	Only ten people turned up last night.
+我不在的时候别惹麻烦	Stay out of trouble when I'm away.
+我以前在哪见过你吗	Did I meet you somwhere before?
+别跟我顶嘴	Don't talk back to me!
+时不我待	Time and tide wait for no man.
+一切都会好起来的	Everything will be all right.
+十美元够了	Ten dollars will do.
+我们之间结束了	I'm done with you.
+我没想到会发生这事	I didn't see that coming.
+这主意太棒了	What a great idea!
+我们找个时间聚一聚吧	Let's get together sometime.
+够了！	Enough is enough!
+请别见怪	No hard feelings.
+我感觉很不适应	I feel like a fish out of water.
+有什么建议？	Got any advice?
+我每时每刻都在想你	I miss you every single moment.

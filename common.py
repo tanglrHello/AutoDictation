@@ -104,7 +104,7 @@ def get_word_infos(encoding, word_fileindex, index_in_file):
     return words
 
 
-def dictation(words, encoding, index_in_list, type):
+def dictation(words, encoding, index_in_list, type, mode="spell"):
     all_words = words
     first_round = True
 
@@ -116,7 +116,7 @@ def dictation(words, encoding, index_in_list, type):
 
     normal_exit = True
     while len(words_to_dictate) != 0:
-        wrong_words, continue_dictate = dictation_round(all_words, words_to_dictate, first_round, encoding, index_in_list, type)
+        wrong_words, continue_dictate = dictation_round(all_words, words_to_dictate, first_round, encoding, index_in_list, type, mode)
         if not continue_dictate:
             normal_exit = False
             break
@@ -160,6 +160,7 @@ def init_real_dictate_words(words, index_in_list):
     # add at least 5 words according to score
     word_list = sorted(words.items(), key=lambda x: float(x[1][index_in_list["score"]]), reverse=True)
     to_add_num = max(5, (20 - len(words_to_real_dictate)) / 2)
+    to_add_num = min(to_add_num, len(words) - len(words_to_real_dictate))
     for word in word_list:
         if word[0] not in words_to_real_dictate:
             words_to_real_dictate[word[0]] = word[1]
@@ -169,6 +170,7 @@ def init_real_dictate_words(words, index_in_list):
 
     # add at least 5 words randomly
     to_add_num = max(5, (20 - len(words_to_real_dictate)) / 2)
+    to_add_num = min(to_add_num, len(words) - len(words_to_real_dictate))
     while to_add_num > 0:
         new_word = random.choice(word_list)
         if new_word[0] not in words_to_real_dictate:
@@ -235,15 +237,28 @@ def judge_for_bilingual(user_input, target_words, encoding):
     return False
 
 
-def dictate_one_bilingual(all_words, source_word, answer, index_in_list, encoding, first_round, wrong_words):
+def dictate_one_bilingual(all_words, source_word, answer, index_in_list, encoding, first_round, wrong_words, mode):
     target_words = all_words[source_word][index_in_list["target_word"]].split("/")
-    if judge_for_bilingual(answer, target_words, encoding):
-        update_correct(all_words, source_word, index_in_list, first_round)
+
+    if mode == "spell":
+        if judge_for_bilingual(answer, target_words, encoding):
+            update_correct(all_words, source_word, index_in_list, first_round)
+        else:
+            print "\n".join(target_words), "(reference)"
+            print "X"
+            wrong_words[source_word] = all_words[source_word]
+            update_wrong(all_words, source_word, index_in_list)
     else:
         print "\n".join(target_words), "(reference)"
-        print "X"
-        wrong_words[source_word] = all_words[source_word]
-        update_wrong(all_words, source_word, index_in_list)
+        judge = raw_input("Are you right? y(yes) or n(no): ")
+        while judge != "y" and judge != "n":
+            judge = raw_input("Invalid input. y(yes) or n(no): ")
+
+        if judge == 'y':
+            update_correct(all_words, source_word, index_in_list, first_round)
+        else:
+            wrong_words[source_word] = all_words[source_word]
+            update_wrong(all_words, source_word, index_in_list)
 
 
 def check_one_monolingual(all_words, word, answer, index_in_list, first_round, wrong_words):
@@ -257,7 +272,7 @@ def check_one_monolingual(all_words, word, answer, index_in_list, first_round, w
         update_wrong(all_words, word, index_in_list)
 
 
-def dictation_round(all_words, words_to_dictate, first_round, encoding, index_in_list, type):
+def dictation_round(all_words, words_to_dictate, first_round, encoding, index_in_list, type, mode="spell"):
     wrong_words = {}
 
     word_list = words_to_dictate.items()
@@ -286,7 +301,7 @@ def dictation_round(all_words, words_to_dictate, first_round, encoding, index_in
             return [], False
 
         if type == "bilingual":
-            dictate_one_bilingual(all_words, source_word, answer, index_in_list, encoding, first_round, wrong_words)
+            dictate_one_bilingual(all_words, source_word, answer, index_in_list, encoding, first_round, wrong_words, mode)
         else:
             check_one_monolingual(all_words, source_word, answer, index_in_list, first_round, wrong_words)
 
