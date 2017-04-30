@@ -1,70 +1,619 @@
-我不明白	I don't get it.	55.0	2.0	2.0	2.0
-你真了不起	You're amazing.	55.0	2.0	2.0	2.0
-拜托,你怎么回事啊	Come on. What's your problem?	55.0	2.0	2.0	2.0
-这让我抓狂	It drives me mad.	75.0	1.0	1.0	1.0
-保守秘密	Keep it secret.	75.0	1.0	1.0	1.0
-我全心全意地爱你	I love you with all my heart.	75.0	1.0	1.0	1.0
-试一试吧	Just give it a try.	75.0	1.0	1.0	1.0
-很抱歉打扰你	I'm sorry to bother you.	75.0	1.0	1.0	1.0
-人们常说有钱能使鬼推磨	People always say that money talks.	75.0	1.0	1.0	1.0
-晚饭做好了	Dinner's ready.	75.0	1.0	1.0	1.0
-让我瞧瞧你有什么本事	Show me what you got!	75.0	1.0	1.0	1.0
-你是怎么熬过来的	How did you get through it?	75.0	1.0	1.0	1.0
-迟到总比不到好	Better late than never.	75.0	1.0	1.0	1.0
-稍等我一下	Give me a minute.	75.0	1.0	1.0	1.0
-想都别想	Don't even think about it!	121.0	3.0	1.0	1
-你吓死我了	You scared the heck out of me!	75.0	1.0	1.0	1.0
-给你	Here you go.	75.0	1.0	1.0	1.0
-我的背疼	My back hurts.	75.0	1.0	1.0	1.0
-滚蛋	Get out of here	75.0	1.0	1.0	1.0
-你是我的一切	You mean the world to me.	75.0	1.0	1.0	1.0
-天气怎么样	What's the weather?	75.0	1.0	1.0	1.0
-等一会儿	Hold on a sec.	75.0	1.0	1.0	1.0
-你丫死定了!	You're a dead meat!/You're a dead man!	75.0	1.0	1.0	1.0
-我们有麻烦了	We are in trouble	75.0	1.0	1.0	1.0
-他上电视了	He appeared on television.	75.0	1.0	1.0	1.0
-我在待业中	I'm between jobs.	75.0	1.0	1.0	1.0
-你今晚看起来很漂亮	You look great tonight.	75.0	1.0	1.0	1.0
-给我看看你的照片	Show me your photo.	75.0	1.0	1.0	1.0
-你能不能消停一下	Would you just stop?	75.0	1.0	1.0	1.0
-待着别动	Stay put	110.0	2.0	1.0	1
-我把她惹哭了	I made her cry.	75.0	1.0	1.0	1.0
-省省吧,我根本不关心	Save it! I couldn't care less.	110.0	2.0	1.0	1
-你明天有空吗	Are you free tomorrow?	75.0	1.0	1.0	1.0
-今天早上我赖床了	I slept in this morning.	75.0	1.0	1.0	1.0
-他是我弟弟	He's my younger brother.	75.0	1.0	1.0	1.0
-我不会说出去的	I'll keep my mouth shut.	75.0	1.0	1.0	1.0
-你怎么看	What's your opinion?	75.0	1.0	1.0	1.0
-我没心情	I'm not in the mood.	75.0	1.0	1.0	1.0
-享受生活的点滴	Enjoy the little things in life.	75.0	1.0	1.0	1.0
-我得吃点东西	I gotta eat sth.	75.0	1.0	1.0	1.0
-别跟我玩阴的	Don't play dirty with me.	75.0	1.0	1.0	1.0
-这个裙子看起来绝对赞爆了	This dress look absolutely gorgeous!	75.0	1.0	1.0	1.0
-小点声儿	Keep your voice down.	110.0	2.0	1.0	1
-我要举办一个聚会	I'm gonna throw a party.	75.0	1.0	1.0	1.0
-你觉得怎么样	What do you say?	75.0	1.0	1.0	1.0
-放松点儿	Just relax	75.0	1.0	1.0	1.0
-再好不过了	Couldn't be better.	75.0	1.0	1.0	1.0
-你是个幸运儿	You are a lucky dog.	75.0	1.0	1.0	1.0
-我可不是三岁小孩	I wasn't born yesterday.	75.0	1.0	1.0	1.0
-英雄所见略同	Great minds think alike.	75.0	1.0	1.0	1.0
-我挺你	I got your back.
-别丢人现眼了	Don't make of fool of yourself.
-帮我一把	Help me out.
-请给我一张去机场的票	A ticket to the airport, please.
-昨晚只有10个人到场	Only ten people turned up last night.
-我不在的时候别惹麻烦	Stay out of trouble when I'm away.
-我以前在哪见过你吗	Did I meet you somwhere before?
-别跟我顶嘴	Don't talk back to me!
-时不我待	Time and tide wait for no man.
-一切都会好起来的	Everything will be all right.
-十美元够了	Ten dollars will do.
-我们之间结束了	I'm done with you.
-我没想到会发生这事	I didn't see that coming.
-这主意太棒了	What a great idea!
-我们找个时间聚一聚吧	Let's get together sometime.
-够了！	Enough is enough!
-请别见怪	No hard feelings.
-我感觉很不适应	I feel like a fish out of water.
-有什么建议？	Got any advice?
-我每时每刻都在想你	I miss you every single moment.
+小三（女）	mistress	55.0	2.0	2.0	2.0
+隔墙有耳	The wall has ears.	75.0	3.0	2.0	2.0
+他穿着平常的衣服	He is in his everyday clothes.	75.0	3.0	2.0	2.0
+让我来	Allow me	75.0	5.0	3.0	2.0
+我觉得有点不舒服	I feel sort of ill.	75.0	3.0	2.0	2.0
+她患了重感冒	She had a bad cold.	75.0	3.0	2.0	2.0
+我挺你	I got your back.	75.0	3.0	2.0	2.0
+不要太在意	don't be so concerned about ...	75.0	5.0	2.0	2.0
+他去机场给我们送行	He went to the airport to see us off.	55.0	2.0	2.0	2.0
+不要碰运气	Don't trust to chance.	88.0	6.0	4.0	1.0
+我想知道去时代广场的方向	I need directions to Time Square.	55.0	2.0	2.0	2.0
+我的行李在哪条传送带上	Which conveyor belt will my luggage be on?	75.0	3.0	2.0	2.0
+约翰向格蕾丝求婚	John asked Grace to marry him./John proposed marriage to Grace	75.0	3.0	2.0	2.0
+请问你是哪位（接电话）	Who is calling please?	75.0	3.0	2.0	2.0
+推理小说	Reasoning fiction	75.0	3.0	2.0	2.0
+谁说的？	Says who?	55.0	2.0	2.0	2.0
+这双鞋跟你的裤子很搭	These shoes go well with your pants	75.0	5.0	3.0	2.0
+你吓死我了	You scared the heck out of me!	98.0429378531	5.0	3.0	1.0
+你那边现在是几点	What's the time there?/What time is it over there?	56.1299435028	2.0	2.0	2.0
+回头见	see you around	55.0	2.0	2.0	2.0
+你最好收回刚刚说的话	You'd better take back what you just said.	75.0	3.0	2.0	2.0
+我送你回家	I'm seeing you home.	55.0	2.0	2.0	2.0
+我们早就知道了	We already knew that.	45.0	4.0	3.0	3.0
+我在待业中	I'm between jobs.	56.1299435028	2.0	2.0	2.0
+到目前为止还不错	So far, so good.	55.0	2.0	2.0	2.0
+不要让我等太久	Don't keep me waiting long.	75.0	3.0	2.0	2.0
+九点钟可以吗？	Let's say 9?	75.0	5.0	3.0	2.0
+重阳节	the double ninth festival	55.0	2.0	2.0	2.0
+我羡慕你的好运气	I admire at your fortune.	75.0	3.0	2.0	2.0
+振作起来	You need to cheer up./Get yourself together!	75.0	6.0	3.0	2.0
+爱屋及乌	Love me, love my dog.	55.0	2.0	2.0	2.0
+白忙了	The answer is zero.	75.0	3.0	2.0	2.0
+别谦虚了	Don't be so modest.	5.0	5.0	4.0	4.0
+口碑	word of mouth	55.0	2.0	2.0	2.0
+你能送老师出去吗	Will you please see the teather out？	55.0	2.0	2.0	2.0
+双程票	round-trip ticket	88.0	3.0	2.0	1.0
+太遗憾了	What a pity!	25.0	3.0	3.0	3.0
+我突然冒出一个很棒的想法	A great idea just came to me.	75.0	6.0	3.0	2.0
+不要为撒了的牛奶哭泣	Don't cry over spilt milk.	75.0	3.0	2.0	2.0
+我应该去哪里取票	Where do I pick up the ticket?	88.0	3.0	2.0	1.0
+他们按小时计薪	They are paid by the hour.	55.0	2.0	2.0	2.0
+打折吗	Will you give me a discount?	75.0	3.0	2.0	2.0
+十减去五等于五	If you take 5 from 10, you get 5.	55.0	2.0	2.0	2.0
+你真了不起	You're amazing.	56.1299435028	2.0	2.0	2.0
+今天是星期天	It's Sunday today.	55.0	2.0	2.0	2.0
+景色真好	The view is great	75.0	3.0	2.0	2.0
+如果你不抓紧点的话	If you don't get on with it	75.0	9.0	4.0	2.0
+试一试吧	Just give it a try.	89.1299435028	3.0	2.0	1.0
+我以前在哪见过你吗	Did I meet you somwhere before?	75.0	3.0	2.0	2.0
+我来给你表演一个魔术	Let me show you a magic.	55.0	2.0	2.0	2.0
+你疯了吧	Are you insane?	55.0	2.0	2.0	2.0
+参加聚会	go to the party	88.0	3.0	2.0	1.0
+他有幽默感	He has a sense of humor.	55.0	2.0	2.0	2.0
+我好久没见到你了	I haven't seen you for ages.	55.0	2.0	2.0	2.0
+我为人人，人人为我	One for all, all for one.	55.0	2.0	2.0	2.0
+别让它击垮你	Don't let it get you down.	88.0	3.0	2.0	1.0
+你要订哪一天的？	Which day do you want to book?	55.0	2.0	2.0	2.0
+点外卖	order take-out(Ame)/take-away（Eng）	55.0	2.0	2.0	2.0
+这样太耽误时间了	It really takes time.	75.0	3.0	2.0	2.0
+全脂奶粉	whole milk powder	75.0	3.0	2.0	2.0
+这个苹果烂了	The apple is rotten	55.0	2.0	2.0	2.0
+没关系	Never mind.	55.0	2.0	2.0	2.0
+请别见怪	No hard feelings.	76.1299435028	4.0	2.0	2.0
+时间快到了	Time is up.	55.0	2.0	2.0	2.0
+我请客	My treat.	75.0	3.0	2.0	2.0
+网游	online game	75.0	3.0	2.0	2.0
+你明天有空吗	Are you free tomorrow?	56.1299435028	2.0	2.0	2.0
+我能知道你的名字吗	Can I have your name?	55.0	2.0	2.0	2.0
+都听腻了	It's getting old, man!	45.0	6.0	4.0	3.0
+我能查看一下你的包吗	Could I look through your bag?	55.0	2.0	2.0	2.0
+我们大家都会这样/我们大家都有这样的感觉	happens to the best of us	55.0	2.0	2.0	2.0
+别误会了/别想歪了	Don't take this the wrong way.	75.0	3.0	2.0	2.0
+机不可失失不再来	Opportunity knocks but once.	75.0	5.0	3.0	2.0
+我问到了烧菜做饭的味道	I smelled a smell of cooking.	75.0	3.0	2.0	2.0
+新建的	newly-built	25.0	3.0	3.0	3.0
+我差点忘了	I almost forgot it.	56.1299435028	2.0	2.0	2.0
+我不明白	I don't get it.	106.48	9.0	6.0	1.0
+大巴车来了	There comes a bus.	55.0	2.0	2.0	2.0
+他是个小机灵鬼	He is a smart boy.	55.0	2.0	2.0	2.0
+工资条	salary sheet	55.0	2.0	2.0	2.0
+医学生	medical student	55.0	2.0	2.0	2.0
+他们把过失归咎于他	They charged the fault on him.	75.0	4.0	2.0	2.0
+挤满灰尘的	dust-covered	55.0	2.0	2.0	2.0
+过你喜欢的生活	Live the life you love.	56.1299435028	2.0	2.0	2.0
+我谨向各位表示衷心的感谢	My heartfelt thanks to you all.	122.367231638	4.0	2.0	1
+帮我一把	Help me out.	122.242937853	4.0	2.0	1
+Terry前两天被炒鱿鱼了	Terry god laid off two days ago.	121.0	4.0	2.0	1
+我想预定（房间、餐厅）	I'd like to make a reservation.	55.0	2.0	2.0	2.0
+你现在有对象吗	Are you seeing anyone now?	75.0	3.0	2.0	2.0
+她身体不适	She's under the weather.	75.0	5.0	3.0	2.0
+放手！	Let go!	55.0	2.0	2.0	2.0
+你是个幸运儿	You are a lucky dog.	56.1299435028	2.0	2.0	2.0
+别上当	Don't fall for it!	75.0	3.0	2.0	2.0
+到这个站要多少钱	How much is the fare to this station?	55.0	2.0	2.0	2.0
+发现了这件事	find it out	55.0	2.0	2.0	2.0
+我们应该再加把劲儿	We should put a little more effort into it.	122.242937853	4.0	2.0	1
+我这样说对吗	Am I right saying this way?	55.0	2.0	2.0	2.0
+违背诺言	break his word	55.0	2.0	2.0	2.0
+随身行李	carry-on	55.0	2.0	2.0	2.0
+技术员	technician	55.0	2.0	2.0	2.0
+必看的东西/应该看的东西	must-see	55.0	2.0	2.0	2.0
+今天星期几	What day is today?	121.0	4.0	2.0	1
+如果你喜欢她，就去追求他吧	If you like her, go tell her.	55.0	2.0	2.0	2.0
+宿舍管理员	Dormitory Attendant	75.0	3.0	2.0	2.0
+可不是吗！	You can say that again!/Tell me about it!	75.0	7.0	4.0	2.0
+谢谢你的提醒	Thanks for the warning.	121.0	4.0	2.0	1
+你欠我一个人情	You owe me one.	55.0	2.0	2.0	2.0
+努力挣取吧	go for it!	55.0	2.0	2.0	2.0
+我们又见面了	We meet again.	55.0	2.0	2.0	2.0
+请你原谅	I beg you to forgive me.	75.0	4.0	2.0	2.0
+我在北京上的大学	I studied in a university in Beijing.	55.0	2.0	2.0	2.0
+今天早上我赖床了	I slept in this morning.	26.1299435028	3.0	3.0	3.0
+哪天都行	Any day will do.	55.0	2.0	2.0	2.0
+滚蛋	Get out of here	56.1299435028	2.0	2.0	2.0
+吃药	take meds	55.0	2.0	2.0	2.0
+励志书	self-help book	110.0	2.0	1.0	1.0
+读完这本书	finish the book	55.0	2.0	2.0	2.0
+全都被订满了	They are already full.	88.0	3.0	2.0	1.0
+天气变得凉爽多了	It has be come much cooler.	75.0	9.0	4.0	2.0
+八大菜系	Eight Cuisines	55.0	2.0	2.0	2.0
+在...的门口	At the gate of	55.0	2.0	2.0	2.0
+你不舒服吗	Are you ok?	75.0	3.0	2.0	2.0
+不介意	None taken.	75.0	5.0	2.0	2.0
+我们休息十分钟	We'll take ten.	110.0	2.0	1.0	1.0
+他是个好人吗	Is he a good man?	55.0	2.0	2.0	2.0
+先到先得	First come first served.	75.0	3.0	2.0	2.0
+之类的	and so on	55.0	2.0	2.0	2.0
+go nuts	发疯	55.0	2.0	2.0	2.0
+我不会说出去的	I'll keep my mouth shut.	89.1299435028	3.0	2.0	1.0
+这对你没任何好处	This won't do you any good.	88.0	7.0	3.0	1.0
+我每时每刻都在想你	I miss you every single moment.	56.1299435028	2.0	2.0	2.0
+男人比女人更有优势	Men have an edge over women.	111.129943503	2.0	1.0	1.0
+(没听清)再说一遍？	Come again?	110.0	2.0	1.0	1.0
+一直都这样	It's always like this.	68.0	4.0	3.0	2.0
+避开人群	avoid a large number of people	75.0	5.0	3.0	2.0
+单程票	one-way ticket	55.0	2.0	2.0	2.0
+一切还好吧	How's everything?	55.0	2.0	2.0	2.0
+我在敷面膜	I am having a facial mask	75.0	4.0	2.0	2.0
+你这个混蛋！	You bastard!	25.0	3.0	3.0	3.0
+下班	off duty	55.0	2.0	2.0	2.0
+路上是不是很堵	Isn't the traffic heavy?/Isn't it crowded?	55.0	2.0	2.0	2.0
+我没想到会发生这事/我没想到会来这一出	I didn't see that coming.	75.0	3.0	2.0	2.0
+不劳无获	No pain, no gain.	55.0	2.0	2.0	2.0
+他卧病在床	He is ill in bed.	88.0	3.0	2.0	1.0
+A号地铁是开往哪里的	Where does train A go?	55.0	2.0	2.0	2.0
+执行计划	carry out a plan	55.0	2.0	2.0	2.0
+我全心全意地爱你	I love you with all my heart.	56.1299435028	2.0	2.0	2.0
+行李提取处	luggage pickup spot	55.0	2.0	2.0	2.0
+今晚喝一杯怎么样	How about a drink tonight?	25.0	3.0	3.0	3.0
+替我向某人问好	say hello to someone for me.	55.0	2.0	2.0	2.0
+她在派对上喝高了	She got drunk at the party.	75.0	4.0	2.0	2.0
+人们常说有钱能使鬼推磨	People always say that money talks.	56.1299435028	2.0	2.0	2.0
+英雄所见略同	Great minds think alike.	56.1299435028	2.0	2.0	2.0
+小三	home wrecker/the other man/the other woman	75.0	3.0	2.0	2.0
+我是为了帮你	I did this as a favor.	56.1299435028	2.0	2.0	2.0
+炒玉米	Fried corn	55.0	2.0	2.0	2.0
+我不是故意的	I don't mean it.	55.0	2.0	2.0	2.0
+卧铺票	berth ticket	75.0	3.0	2.0	2.0
+银河	the Milky Way	55.0	2.0	2.0	2.0
+他有外遇了	He is having an affair.	88.0	6.0	3.0	1.0
+神经病啊你	neuropathy ah you	75.0	3.0	2.0	2.0
+要花钱吗	Is it free?	75.0	3.0	2.0	2.0
+七夕	the seventh evening of the seventh moon/Qixi Festival	75.0	3.0	2.0	2.0
+在哪里安检？	Where is security?/Do you know where security is?	55.0	2.0	2.0	2.0
+你能不能直奔主题？	Would you just get to the point?	55.0	2.0	2.0	2.0
+最近几天我总拉肚子	I've got the runs these days.	75.0	4.0	2.0	2.0
+散散步	take a walk	55.0	2.0	2.0	2.0
+他和我同岁	He is my age.	55.0	2.0	2.0	2.0
+去美国的经济舱票价是多少	What's the fare to America, economy class?/How much is the economy class to America?	75.0	5.0	3.0	2.0
+你不可好高骛远	You mustn't aim too high.	75.0	5.0	3.0	2.0
+我紧张地心都快要跳出来了	I was so nervous that my heart virtually burst out of my chest.	75.0	3.0	2.0	2.0
+别丢人现眼了	Don't make a fool of yourself.	76.1299435028	4.0	2.0	2.0
+这钢笔不好写	This pen doesn't write well.	55.0	2.0	2.0	2.0
+太阳已经升起来了	The sun has come up.	55.0	2.0	2.0	2.0
+休息一天	take a day off	75.0	3.0	2.0	2.0
+沿着这条路走下去就行	It's right down this way.	55.0	2.0	2.0	2.0
+911事件	911 incident	-15.0	4.0	4.0	4.0
+信不信由你	Believe it or not!	88.0	3.0	2.0	1.0
+我们去威尼斯度的蜜月	We went to Venice for our honeymoon.	55.0	2.0	2.0	2.0
+你们收信用卡吗	Do you accept credit cards?	75.0	3.0	2.0	2.0
+办护照	apply for a passport	55.0	2.0	2.0	2.0
+提前一天	a day in advance	55.0	2.0	2.0	2.0
+我会安排一切的	I will arrange everything.	55.0	2.0	2.0	2.0
+我马上就到	I'll be right there.	75.0	3.0	2.0	2.0
+如果我们遇到湍流我应该怎么办	What can I do if we have turbulence?	75.0	3.0	2.0	2.0
+抵达	make it to	55.0	2.0	2.0	2.0
+他出现了幻觉	She was seeing things.	55.0	2.0	2.0	2.0
+你是怎么熬过来的	How did you get through it?	56.1299435028	2.0	2.0	2.0
+你是个胆小鬼	You are a chicken.	75.0	3.0	2.0	2.0
+练字	practise calligraphy	55.0	2.0	2.0	2.0
+让开	Move out of my way!	55.0	2.0	2.0	2.0
+他上了年纪	He's getting on in years.	75.0	4.0	2.0	2.0
+中国队	Team China	55.0	2.0	2.0	2.0
+要不要随你	take it or leave it	75.0	3.0	2.0	2.0
+碑帖	a rubbing from a stone inscription	45.0	5.0	3.0	3.0
+我欠你晚餐的钱	I owe you for my dinner.	55.0	2.0	2.0	2.0
+我们有麻烦了	We are in trouble	26.1299435028	3.0	3.0	3.0
+我和你换个靠窗户的座位行吗	Do you mind if I trade you for the window seat?	75.0	4.0	2.0	2.0
+少来了！滚！	Get out of here!	75.0	3.0	2.0	2.0
+要是有人在就好了	If only someone was there	55.0	2.0	2.0	2.0
+七仙女下凡	Seven Fairies Come Down to the Human World	75.0	5.0	3.0	2.0
+我不在状态	I'm not my usual self.	75.0	4.0	2.0	2.0
+制作标书	make a bidding document	75.0	3.0	2.0	2.0
+报复某人	get back at sb.	75.0	3.0	2.0	2.0
+十美元够了	Ten dollars will do.	56.1299435028	2.0	2.0	2.0
+你说得挺有道理的	You've got a point there	55.0	2.0	2.0	2.0
+别大惊小怪的	Don't make a fuss about it.	75.0	3.0	2.0	2.0
+过去的就让它过去吧	Let bygones be bygones.	55.0	2.0	2.0	2.0
+我感觉很不适应	I feel like a fish out of water.	56.1299435028	2.0	2.0	2.0
+有什么建议？	Got any advice?	75.0	3.0	2.0	2.0
+明天会降温	There'll be a drop in temperature tomorrow./Tomorrow's temperature will drop.	55.0	2.0	2.0	2.0
+你能预料到的	You could see it coming.	55.0	2.0	2.0	2.0
+让某人不再烦你	get sb off your back	55.0	2.0	2.0	2.0
+你自找的	You asked for it	122.242937853	4.0	2.0	1
+这附近有什么可看的吗	Is there anything nearby worth seeing?	55.0	2.0	2.0	2.0
+这真是件令人高兴的事	This is really a delight	75.0	3.0	2.0	2.0
+我就要这些	That's all I need.	88.0	3.0	2.0	1.0
+电商	e-commerce	55.0	2.0	2.0	2.0
+这没有意义（不合常理）	It doesn't make sense.	75.0	3.0	2.0	2.0
+说来话长	It's a long story.	75.0	3.0	2.0	2.0
+天气渐渐凉爽起来	It's growing cool.	121.0	4.0	2.0	1
+我好羡慕你啊！	How I envy you!	55.0	2.0	2.0	2.0
+我和你(想法、情况)一样	That makes two of us.	121.0	4.0	2.0	1
+我去查查看	I'll check it out.	25.0	3.0	3.0	3.0
+你出卖我	You set me up.	146.41	6.0	2.0	1
+天气怎么样	What's the weather?	56.1299435028	2.0	2.0	2.0
+你站着说话不腰疼	It's easy for you to say!	55.0	2.0	2.0	2.0
+出来混迟早是要还的	What goes around comes around.	75.0	4.0	2.0	2.0
+把它吃完	eat it up	25.0	3.0	3.0	3.0
+来得容易去得快	Easy come, easy go.	55.0	2.0	2.0	2.0
+他吃我豆腐	He came on to me.	75.0	3.0	2.0	2.0
+打个电话	make a phone call	55.0	2.0	2.0	2.0
+要多长时间？（到一个地方）	Will it take long?	55.0	2.0	2.0	2.0
+你得采取行动	You gotta make a move.	75.0	3.0	2.0	2.0
+科普书籍	popular science books	55.0	2.0	2.0	2.0
+好得难以置信	too good to be true	121.0	4.0	2.0	1
+你想得真周到	It's very thoughtful of you.	75.0	4.0	2.0	2.0
+你的人生目标是什么	What's your goal in life?	75.0	3.0	2.0	2.0
+家庭主妇	housewife	55.0	2.0	2.0	2.0
+到下一站要多久	How long is it before the next stop?	75.0	4.0	2.0	2.0
+我要流口水了	My mouth is watering.	55.0	2.0	2.0	2.0
+我们之间结束了	I'm done with you.	75.0	3.0	2.0	2.0
+冲洗照片	develop films	110.0	2.0	1.0	1.0
+机场柜台	airport counter	55.0	2.0	2.0	2.0
+省省吧,我根本不关心	Save it! I couldn't care less.	76.1299435028	3.0	2.0	2.0
+网断了	The network is disconnected	75.0	3.0	2.0	2.0
+1加1等于2	one and one make two.	75.0	3.0	2.0	2.0
+飞机晚点了	The plane has been delayed.	75.0	4.0	2.0	2.0
+恕我直言	I don't mean to be disrespectful.	75.0	3.0	2.0	2.0
+给我看看你的照片	Show me your photo.	26.1299435028	3.0	3.0	3.0
+到站时告诉我一声好吗	Could you tell me when to get off?	55.0	2.0	2.0	2.0
+我不懂你说的	I can't follow you.	88.0	3.0	2.0	1.0
+致命的疾病	deadly disease	110.0	2.0	1.0	1.0
+晚饭做好了	Dinner's ready.	-13.8700564972	4.0	4.0	4.0
+我很少看电视	I seldom watch TV.	55.0	2.0	2.0	2.0
+脱脂奶粉	skimmed milk powder	55.0	2.0	2.0	2.0
+说到点子上	come to the point	110.0	2.0	1.0	1.0
+想都别想	Don't even think about it!	76.1299435028	6.0	3.0	2.0
+时不我待	Time and tide wait for no man.	68.0	7.0	4.0	2.0
+不要让机会溜走	Don't let chances pass by.	75.0	5.0	3.0	2.0
+看起来没问题	It seems all right.	110.0	2.0	1.0	1.0
+被公之于众	Be made public	26.1299435028	3.0	3.0	3.0
+不舍得做某事	not willing to do sth.	55.0	2.0	2.0	2.0
+整理床铺	make bed	55.0	2.0	2.0	2.0
+避开节日人流高峰	avoid the holiday rush	55.0	2.0	2.0	2.0
+我把她惹哭了	I made her cry.	56.1299435028	2.0	2.0	2.0
+这跟你有什么关系（正常疑问）	Does it have any business with you?	75.0	7.0	3.0	2.0
+如果有什么情况，我会马上向你汇报	If there is a new situation, I will report to you immediately	111.242937853	2.0	1.0	1.0
+你会成为一个出色的医生	You'll make a great doctor.	110.0	2.0	1.0	1.0
+你说什么都好；好的；好吧	Anything you say.	75.0	4.0	2.0	2.0
+这鬼天气	What horrible weather!	75.0	6.0	3.0	2.0
+让我恼火的是	What got me was...	110.0	2.0	1.0	1.0
+别误会我的意思	Don't get me wrong.	110.0	2.0	1.0	1.0
+享受生活的点滴	Enjoy the little things in life.	-13.8700564972	4.0	4.0	4.0
+这个对的还是错的？	Is it true or false?	25.0	3.0	3.0	3.0
+金窝银窝不如狗窝	East, west, home is best.	110.0	2.0	1.0	1.0
+香辣虾	fried shrimp with chilli	110.0	2.0	1.0	1.0
+放松点儿	Just relax	56.1299435028	2.0	2.0	2.0
+你对此有意见吗	You got a problem with that?	75.0	10.0	4.0	2.0
+我没心情	I'm not in the mood.	56.1299435028	2.0	2.0	2.0
+今年我终于得偿所愿	I finally got there this year.	110.0	2.0	1.0	1.0
+我不干了！	I quit!	25.0	3.0	3.0	3.0
+菲佣	Filipino domestic workers	111.242937853	2.0	1.0	1.0
+请不要拘礼	Make yourself at home.	75.0	3.0	2.0	2.0
+你把我当傻子吗	Do you take me for a fool?	88.0	3.0	2.0	1.0
+这儿有人坐吗	Is this seat taken?	55.0	2.0	2.0	2.0
+一切都会好起来的	Everything will be all right.	56.1299435028	2.0	2.0	2.0
+你紧张什么	Why are you nrevous?	75.0	3.0	2.0	2.0
+保守秘密	Keep it secret.	56.1299435028	2.0	2.0	2.0
+要跟我们一起吗	Would you like to join us?	75.0	3.0	2.0	2.0
+非常普遍的现象	very common phenomenon	56.1299435028	2.0	2.0	2.0
+确实是这样	It's like this indeed.	75.0	6.0	3.0	2.0
+吸毒	do drugs	75.0	3.0	2.0	2.0
+好划算	What a good deal!	55.0	2.0	2.0	2.0
+没什么大不了的	No big deal.	56.1299435028	2.0	2.0	2.0
+我能看穿你的所有把戏	I can see through all your tricks.	55.0	2.0	2.0	2.0
+不用找零了	keep the charge	55.0	2.0	2.0	2.0
+你丫死定了!	You're a dead meat!/You're a dead man!	89.1299435028	3.0	2.0	1.0
+我马上回来	I'll be back soon.	55.0	2.0	2.0	2.0
+待着别动	Stay put	45.0	8.0	5.0	3.0
+公事公办	Business is business.	56.1299435028	2.0	2.0	2.0
+我不知道你在暗示什么	I don't know what you are getting at.	75.0	3.0	2.0	2.0
+饺子皮	dumpling wrapper	88.0	3.0	2.0	1.0
+人要衣装	Clothes make the man.	75.0	4.0	2.0	2.0
+正经事	serious affairs	75.0	3.0	2.0	2.0
+我回来了	I'm home.	55.0	2.0	2.0	2.0
+我们就假设你是对的	Let's say that you're right.	55.0	2.0	2.0	2.0
+一年到头	throughout the year	25.0	3.0	3.0	3.0
+别跟我顶嘴	Don't talk back to me!	56.1299435028	2.0	2.0	2.0
+我的车里还能再坐三个人	I can take three more people in my car.	75.0	3.0	2.0	2.0
+我是独生子/女	I'm an only child.	56.1299435028	2.0	2.0	2.0
+少来这套	Don't give me that!	75.0	3.0	2.0	2.0
+没有根据	have no basis	75.0	3.0	2.0	2.0
+请稍等	Just a moment please	45.0	4.0	3.0	3.0
+加起来有	sum up to	55.0	2.0	2.0	2.0
+A号航站楼	terminal A	55.0	2.0	2.0	2.0
+够了！	Enough is enough!	56.1299435028	2.0	2.0	2.0
+不管怎么说	anyway/anyhow/in any case	75.0	3.0	2.0	2.0
+我可以预定去美国的F8008号航班的机票吗？	Could I make a reservation for flight F8008 to America?	55.0	2.0	2.0	2.0
+电扇	electric fan	55.0	2.0	2.0	2.0
+过安检	get through security	75.0	3.0	2.0	2.0
+你得放下自己的过去	You have to let go of your past.	55.0	2.0	2.0	2.0
+我的钥匙找不到的	My keys have gone missing.	75.0	4.0	2.0	2.0
+王母娘娘	The Queen of Heaven	25.0	3.0	3.0	3.0
+顺道来访	come by/come over	55.0	2.0	2.0	2.0
+带动气氛	promote an atmosphere	55.0	2.0	2.0	2.0
+有人在按门铃	Someone is ringing the bell.	75.0	3.0	2.0	2.0
+他不愿意	He is not willing to.	55.0	2.0	2.0	2.0
+不准乱丢垃圾	No littering.	55.0	2.0	2.0	2.0
+端午节	Dragon Boat Festival	55.0	2.0	2.0	2.0
+堵车	traffic jams	55.0	2.0	2.0	2.0
+太离谱了	It's goint too far.	75.0	5.0	3.0	2.0
+太阳从东方升起	The sun comes up in the east.	68.0	4.0	3.0	2.0
+别为它生气	Don't let it get to you.	75.0	7.0	3.0	2.0
+系好安全带	Fasten your seat belt.	55.0	2.0	2.0	2.0
+你嗑药了吧	Did you get high?	75.0	3.0	2.0	2.0
+时间见真理	Truth is the daughter of time.	75.0	3.0	2.0	2.0
+你把我当成什么了？	What do you take me for?	25.0	3.0	3.0	3.0
+这车性能很好	The car is in good condition.	55.0	2.0	2.0	2.0
+他是我弟弟	He's my younger brother.	56.1299435028	2.0	2.0	2.0
+请给我一张去机场的票	A ticket to the airport, please.	76.1299435028	3.0	2.0	2.0
+多肉植物	succulent plants	55.0	2.0	2.0	2.0
+算上我	Count me on.	55.0	2.0	2.0	2.0
+小睡一会	take a nap	55.0	2.0	2.0	2.0
+等着瞧	Just wait and see!	55.0	2.0	2.0	2.0
+别自作多情了	Get over yourself	75.0	5.0	2.0	2.0
+说起来容易做起来难	It's easier said than done.	75.0	4.0	2.0	2.0
+小题大做	make a big deal about	75.0	5.0	3.0	2.0
+别跟我玩阴的	Don't play dirty with me.	56.1299435028	2.0	2.0	2.0
+这家饭店能刷信用卡吗	Does this restaurant take credit cards?	121.0	4.0	2.0	1
+我们现在开始吧	Let's get started now.	121.0	4.0	2.0	1
+他停下来等着回答	He paused for a reply.	121.0	4.0	2.0	1
+热死了	The heat is killing me.	25.0	3.0	3.0	3.0
+收获的季节	harvest season	55.0	2.0	2.0	2.0
+错过的机会不会再来	A lost chance never returns	75.0	7.0	3.0	2.0
+我该在哪里换乘？	Where am I supposed to change?/Where do I change trains?/Where should I change trains?/Where am I supposed to transfer?/At what station should I change?	55.0	2.0	2.0	2.0
+家电	household appliances	122.242937853	4.0	2.0	1
+向前迈一步	take a step forward	55.0	2.0	2.0	2.0
+我明白你的意思了	I see your point.	75.0	3.0	2.0	2.0
+学长	senior/upper classman/older schoolmate	88.0	5.0	3.0	1.0
+就这样吧（用于结束对话、完成交易、或鼓励他人表现好）	There you go.	88.0	3.0	2.0	1.0
+公交车过半小时才能来	The bus won't be here for another 30 minutes.	88.0	3.0	2.0	1.0
+一件行李	a piece of luggage	55.0	2.0	2.0	2.0
+他比我高一个头	He is taller than I by a head.	75.0	3.0	2.0	2.0
+在大多数情况下	in most cases	55.0	2.0	2.0	2.0
+别拿我出气	Don't take it out on me.	121.0	4.0	2.0	1
+勾引某人	make a pass at sb.	75.0	6.0	3.0	2.0
+你还在犹豫什么	Why are you still hesitating?	75.0	3.0	2.0	2.0
+骑车去上班	go to work by bike	55.0	2.0	2.0	2.0
+跳槽到另一家公司	switch to another company	55.0	2.0	2.0	2.0
+别这么孩子气	Don't be so childish.	55.0	2.0	2.0	2.0
+我开始发胖了	I have been putting on weight.	55.0	2.0	2.0	2.0
+别紧张	Take it easy.	55.0	2.0	2.0	2.0
+这让我抓狂	It drives me mad.	56.1299435028	2.0	2.0	2.0
+全面检查	go over everything	133.1	5.0	2.0	1
+等一会儿	Hold on a sec.	89.1299435028	3.0	2.0	1.0
+非做不可吗	Do I have to?	121.0	4.0	2.0	1
+他上电视了	He appeared on television.	56.1299435028	2.0	2.0	2.0
+不要虚度光阴	Don't dream away your time.	75.0	5.0	3.0	2.0
+买一赠一	Buy one, get one free/BOGO	75.0	3.0	2.0	2.0
+别这样对我	Don't do this to me.	122.367231638	4.0	2.0	1
+中秋节	mid-autumn festival	55.0	2.0	2.0	2.0
+我会留意的	I'll see to it.	75.0	3.0	2.0	2.0
+我们认识吗	Have we met before?	55.0	2.0	2.0	2.0
+他什么坏事都能干出来	He is capable of any crime.	121.0	4.0	2.0	1
+什么时候供饭	When will the meals be served?	55.0	2.0	2.0	2.0
+他们把价格降低了20%/打八折	They took 20 percent off the price.	121.0	4.0	2.0	1
+我花了**时间/钱做某事	It took me 2 hours to.../ It took me 100 dollars to...	55.0	2.0	2.0	2.0
+快退	rewind	55.0	2.0	2.0	2.0
+以牙还牙	Tit for tat.	56.1299435028	2.0	2.0	2.0
+你当时是怎么想的	What were you thinking?	75.0	5.0	3.0	2.0
+家常菜	home cooking	75.0	3.0	2.0	2.0
+别瞒着我事实真相	Don't keep the truth from me.	110.0	2.0	1.0	1.0
+长话短说、快一点	make it quick	55.0	2.0	2.0	2.0
+小便	take a leak	110.0	2.0	1.0	1.0
+夜间航班	red-eye flight	55.0	2.0	2.0	2.0
+打雪仗	have a snowball fight	75.0	6.0	3.0	2.0
+打击腐败（verb）	combat corruption	55.0	2.0	2.0	2.0
+只有你这么认为	Says you!	75.0	6.0	3.0	2.0
+深呼吸	take a deep breath	55.0	2.0	2.0	2.0
+干杯！	Bottoms up!	75.0	3.0	2.0	2.0
+还有别的吗	Any alternatives?	55.0	2.0	2.0	2.0
+希望你快点好起来	I hope you will be better soon.	25.0	3.0	3.0	3.0
+如果可以重来	If you had to do it all over again	45.0	8.0	4.0	3.0
+祭品	a sacrificial offering	110.0	2.0	1.0	1.0
+能告诉我...	Would you mind telling me...	55.0	2.0	2.0	2.0
+他们大大地表扬了他	They praised him highly.	75.0	3.0	2.0	2.0
+你来得正是时候	You are just in time.	110.0	2.0	1.0	1.0
+你怎么看	What's your opinion?	56.1299435028	2.0	2.0	2.0
+亲热（亲亲抱抱之类）	make out	55.0	2.0	2.0	2.0
+售后服务	after-sales service	111.242937853	2.0	1.0	1.0
+你把他怎么了	What did you do with him?	111.129943503	2.0	1.0	1.0
+我要举办一个聚会	I'm gonna throw a party.	56.1299435028	2.0	2.0	2.0
+你自己的事	Your own affair	110.0	2.0	1.0	1.0
+糖醋里脊	Sweet and Sour Pork	55.0	2.0	2.0	2.0
+休息一下	take a break	75.0	3.0	2.0	2.0
+下班以后	After Work	55.0	2.0	2.0	2.0
+汉语拼音	chinese phoneticize	45.0	6.0	4.0	3.0
+这发型显年轻	The haircut took years off you.	55.0	2.0	2.0	2.0
+干得好！	Way to go!	133.1	6.0	3.0	1
+达标	make the cut	45.0	5.0	3.0	3.0
+小篆	Small Seal Script	55.0	2.0	2.0	2.0
+到底发生了什么	What on earth is happening?	75.0	3.0	2.0	2.0
+这是违法的	It's against the law.	88.0	4.0	3.0	1.0
+什么时候登机	When is the plane boarding?	121.0	4.0	2.0	1.0
+很抱歉打扰你	I'm sorry to bother you.	56.1299435028	2.0	2.0	2.0
+我们今天晚上干点儿什么呢？	What shall we do tonight?	55.0	2.0	2.0	2.0
+大便	take a dump	55.0	2.0	2.0	2.0
+你要么留下要么离开	You can either stay or leave.	121.0	4.0	2.0	1.0
+就在附近	Just around the corner.	55.0	2.0	2.0	2.0
+保姆	baby-sitter	55.0	2.0	2.0	2.0
+我的辛苦劳动全都白费了	My hard word comes to nothing.	55.0	2.0	2.0	2.0
+国庆节	National Day	121.0	4.0	2.0	1.0
+真为你感到高兴	I'm so happy for you.	75.0	3.0	2.0	2.0
+你能告诉我帝国大厦怎么走吗	Could you direct me to the Empire State Building?	55.0	2.0	2.0	2.0
+闭嘴	Zip it！	75.0	5.0	3.0	2.0
+昨晚只有10个人到场	Only ten people turned up last night.	75.0	3.0	2.0	2.0
+我很乐意	I'd love to.	55.0	2.0	2.0	2.0
+我们找个时间聚一聚吧	Let's get together sometime.	75.0	3.0	2.0	2.0
+她上学去了	She has been to school.	75.0	4.0	2.0	2.0
+这里是检票的地方吗	Is this where I check in?	88.0	3.0	2.0	1.0
+有什么大不了的	What's the big deal?	75.0	3.0	2.0	2.0
+从那条路走，离这里有五个街区	It's five blocks from here going that way.	55.0	2.0	2.0	2.0
+义乌小商品市场	Yiwu small commodity market	75.0	3.0	2.0	2.0
+租车公司	car rental company	55.0	2.0	2.0	2.0
+您先	After you	75.0	3.0	2.0	2.0
+你需要去运动一下	You need to workout.	55.0	2.0	2.0	2.0
+我情不自禁	I can't help it.	88.0	3.0	2.0	1.0
+他是不是出轨了	Does he cheat on his wife?	75.0	3.0	2.0	2.0
+公务员	civil servant	88.0	5.0	3.0	1.0
+克制一下	Control yourself!	75.0	3.0	2.0	2.0
+杂交稻制种	hybrid rice seed prodution	75.0	3.0	2.0	2.0
+别催我	Don't rush me.	56.1299435028	2.0	2.0	2.0
+注意别生病了	Be careful not to fall ill.	75.0	6.0	3.0	2.0
+一个汉堡打包带走	one hamburger to go.	55.0	2.0	2.0	2.0
+等一下啊	one second.	75.0	3.0	2.0	2.0
+我很恼火	I saw red.	55.0	2.0	2.0	2.0
+你吃错药了？	Did you get up on the wrong side of bed or something?	75.0	3.0	2.0	2.0
+你觉得怎么样	What do you say?	56.1299435028	2.0	2.0	2.0
+我不想让这个争论影响到我们俩的关系	I don't want this argument to come between us.	75.0	3.0	2.0	2.0
+到时候见	see you then	55.0	2.0	2.0	2.0
+做个决定吧	Make up your mind.	75.0	3.0	2.0	2.0
+这主意太棒了	What a great idea!	75.0	3.0	2.0	2.0
+我们得看情况	We'll have to see.	75.0	3.0	2.0	2.0
+直航班机	direct flight	55.0	2.0	2.0	2.0
+给电脑降温	lower the temperature of the computer	75.0	3.0	2.0	2.0
+你的手摸起来很冷	Your hand feels cold.	55.0	2.0	2.0	2.0
+算了，我来吧	Never mind, I'll do it.	75.0	3.0	2.0	2.0
+上下班高峰	rush hour	55.0	2.0	2.0	2.0
+织围巾	knit a scarf	55.0	2.0	2.0	2.0
+我亲眼所见	I saw it with my own eyes.	88.0	5.0	3.0	1.0
+我们对这问题看法一样	We see eye to eye about this issue.	55.0	2.0	2.0	2.0
+这是最流行的款式	That's the latest fashion.	45.0	4.0	3.0	3.0
+反派	negative character/villain	88.0	5.0	3.0	1.0
+他跳江自杀了	He killed himself in the river	25.0	3.0	3.0	3.0
+我保证	You have my word.	75.0	3.0	2.0	2.0
+堆雪人	make a snowman	45.0	4.0	3.0	3.0
+明天放假	Tomorrow will be a holiday.	88.0	5.0	3.0	1.0
+胡说八道	The hell you say!	121.0	4.0	2.0	1.0
+你自己算算	You do the math.	55.0	2.0	2.0	2.0
+辣子鸡	Peppery Chicken	121.0	4.0	2.0	1.0
+科室主任	head of department	55.0	2.0	2.0	2.0
+我晒黑了	I got tanned.	75.0	3.0	2.0	2.0
+画重点	underline important points	55.0	2.0	2.0	2.0
+我说的	Says me	45.0	4.0	3.0	3.0
+让我瞧瞧你有什么本事	Show me what you got!	26.1299435028	3.0	3.0	3.0
+我想碰碰运气	I'll take my chances.	75.0	7.0	3.0	2.0
+不是吧！	You don't say!	88.0	3.0	2.0	1.0
+不是你想的那样	It's not what you think.	88.0	3.0	2.0	1.0
+我只想回到从前	I just want it the way it was.	75.0	4.0	2.0	2.0
+一边儿去，哪凉快上哪去	Take a hike	75.0	3.0	2.0	2.0
+我得吃点东西	I gotta eat sth.	26.1299435028	3.0	3.0	3.0
+他总是吹牛	He always talks big.	55.0	2.0	2.0	2.0
+你要搭乘头等舱还是经济舱？	Will you be travelling first class or economy?	121.0	4.0	2.0	1
+不少朋友	quite a few friends.	25.0	3.0	3.0	3.0
+我只会做那件事	I can do nothing but that.	55.0	2.0	2.0	2.0
+我读不懂她的心思	I can't read her mind.	26.1299435028	3.0	3.0	3.0
+他对我不好	He treated me badly	75.0	3.0	2.0	2.0
+我想买单	I would like to check out.	75.0	3.0	2.0	2.0
+干掉他	take him out	75.0	3.0	2.0	2.0
+走红网络	go viral	75.0	3.0	2.0	2.0
+拜托,你怎么回事啊	Come on. What's your problem?	88.0	4.0	3.0	1.0
+我终于找到你了	I get hold of you at last.	121.0	4.0	2.0	1.0
+我这么跟你说吧	Let me put this another way.	26.1299435028	3.0	3.0	3.0
+加班	work overtime	25.0	3.0	3.0	3.0
+给我来一张票	I'll take one.	55.0	2.0	2.0	2.0
+确定恋爱关系	go steady	55.0	2.0	2.0	2.0
+别客气	Help yourself.	75.0	6.0	3.0	2.0
+参加那场考试	take the test.	75.0	3.0	2.0	2.0
+你可以放心走了	You are good to go.	55.0	2.0	2.0	2.0
+你让我好开心	You just made my day!	88.0	3.0	2.0	1.0
+迟到总比不到好	Better late than never.	56.1299435028	2.0	2.0	2.0
+我是真的喜欢你	I do like you.	75.0	3.0	2.0	2.0
+稍等我一下	Give me a minute.	56.1299435028	2.0	2.0	2.0
+和某人和好	make peace with sb.	121.0	4.0	2.0	1
+我入伙	I'm going in.	121.0	4.0	2.0	1.0
+给你	Here you go.	55.0	2.0	2.0	2.0
+我的背疼	My back hurts.	-13.8700564972	4.0	4.0	4.0
+你是我的一切	You mean the world to me.	26.1299435028	3.0	3.0	3.0
+说说而已	just saying/just talk about it	55.0	2.0	2.0	2.0
+列车多久来一趟	How often do the trains come?	88.0	3.0	2.0	1.0
+我到时随机应变	I'll just play it by ear.	121.0	3.0	1.0	1.0
+世界性难题	worldwide problem	55.0	2.0	2.0	2.0
+这音乐深得我意	This music really gets me.	75.0	3.0	2.0	2.0
+法定节假日	official holiday	55.0	2.0	2.0	2.0
+我就是这个意思	That's what I say.	55.0	2.0	2.0	2.0
+反腐（adj）	anti-corruption	25.0	3.0	3.0	3.0
+向妈妈坦白	come clean with mom.	56.1299435028	2.0	2.0	2.0
+外企	foreign company	25.0	3.0	3.0	3.0
+他在选举中获胜	He won an election.	55.0	2.0	2.0	2.0
+我不在的时候别惹麻烦	Stay out of trouble when I'm away.	26.1299435028	3.0	3.0	3.0
+再见	I'll be seeing you.	88.0	3.0	2.0	1.0
+得了感冒	catch a cold.	75.0	3.0	2.0	2.0
+说句题外话	As an aside	122.367231638	4.0	2.0	1
+石碑	stone tablet	55.0	2.0	2.0	2.0
+保重	Take care	55.0	2.0	2.0	2.0
+你完全理解错了	You got it all wrong.	75.0	5.0	2.0	2.0
+再好不过了	Couldn't be better.	89.1299435028	3.0	2.0	1.0
+友谊赛	friendly competition	55.0	2.0	2.0	2.0
+什么时候起飞？	What's the departure time?	55.0	2.0	2.0	2.0
+我可不是三岁小孩	I wasn't born yesterday.	88.0	3.0	2.0	1.0
+他开不起玩笑	He can't take a joke.	75.0	5.0	3.0	2.0
+警报铃响了	The alarm is going off.	55.0	2.0	2.0	2.0
+打折的票	discount ticket/tickt on discount	75.0	3.0	2.0	2.0
+我受不了堵车了	I can't stand being in traffic.	55.0	2.0	2.0	2.0
+你得等到湍流过后才行	You must wait until after turbulence.	75.0	3.0	2.0	2.0
+收入少了我也只能将就将就	I had to make do with less income.	75.0	6.0	2.0	2.0
+你可真牛	You're really something	56.1299435028	2.0	2.0	2.0
+不打折	There're no discounts.	75.0	3.0	2.0	2.0
+这双鞋不太合适	These shoes don't fit right.	110.0	2.0	1.0	1.0
+你一定能找到的	You can't miss it.	88.0	4.0	3.0	1.0
+他既不抽烟也不喝酒	He neither smokes nor drinks.	110.0	2.0	1.0	1.0
+我们最好赶紧出发	We'd better get going!	110.0	2.0	1.0	1.0
+五一劳动节	May day	55.0	2.0	2.0	2.0
+你七点钟方便吗	Is 7 OK for you?	110.0	2.0	1.0	1.0
+可不是吗	It really was.	111.129943503	2.0	1.0	1.0
+没时间了	Time is running out.	75.0	6.0	3.0	2.0
+你说对了	You are telling me.	110.0	2.0	1.0	1.0
+不要慌	Don't lose your head.	110.0	2.0	1.0	1.0
+她不是那么喜欢你	She's not that into you.	55.0	2.0	2.0	2.0
+今天是个好天	It's a fine day.	55.0	2.0	2.0	2.0
+叛军占领了整个城市	The rebels took the whole city.	121.0	3.0	1.0	1.0
+随便你，反正我不在乎	See if I care!	110.0	2.0	1.0	1.0
+充话费	charge the phone	55.0	2.0	2.0	2.0
+清明节	Tomb-sweeping Day	88.0	3.0	2.0	1.0
+他有很高的收入	He has a large income.	110.0	2.0	1.0	1.0
+还凑合吧	Just getting by.	110.0	2.0	1.0	1.0
+三件套	three-piece	55.0	2.0	2.0	2.0
+你今晚看起来很漂亮	You look great tonight.	26.1299435028	3.0	3.0	3.0
+善始善终	go all the way	121.0	3.0	1.0	1.0
+让某人极度恼火	make sb's blood boil	75.0	3.0	2.0	2.0
+赚翻了	make a killing	110.0	2.0	1.0	1.0
+我可以用你的笔吗	May I use your pen?	55.0	2.0	2.0	2.0
+悬疑小说	suspense novels	55.0	2.0	2.0	2.0
+你干得相当不错	You did fairly well!	75.0	3.0	2.0	2.0
+快进	fast forward	111.242937853	2.0	1.0	1.0
+不要有压力	No pressure	75.0	3.0	2.0	2.0
+工作落后	fell behind with his work	75.0	3.0	2.0	2.0
+这个裙子看起来绝对赞爆了	This dress look absolutely gorgeous!	56.1299435028	2.0	2.0	2.0
+小点声儿	Keep your voice down.	76.1299435028	3.0	2.0	2.0
+金针菇	Needle mushroom	55.0	2.0	2.0	2.0
+火车准时到达	The train arrived on time.	110.0	2.0	1.0	1.0
+你能不能消停一下	Would you just stop?	97.9299435028	5.0	3.0	1.0
+列车10分钟来一趟	The trains come every ten minutes.	55.0	2.0	2.0	2.0
+这一点也说不通啊	It doesn't make any sense.	55.0	2.0	2.0	2.0
+56个民族	56 ethnic groups	110.0	2.0	1.0	1.0
+我就是这么认为的	That's exactly how I look at it.	100.0	0	0	0
+我找遍了	I looked everywhere	100.0	0	0	0
+别给我这个脸色	Don't give me that look!	100.0	0	0	0
+互相照应	look out for each other	100.0	0	0	0
+崇拜	look up to	100.0	0	0	0
+瞧不起	look down on	100.0	0	0	0
+让我们往好的方面想	Let's look on the bright side.	100.0	0	0	0
+瞧瞧谁来了	Look who's here!	100.0	0	0	0
+她（的着装打扮）走的是成熟路线	She's going for the mature look.	100.0	0	0	0
+她只是在利用你	She's just using you.	100.0	0	0	0
+这些旧衣服对我来说没用了	I have no use for these old clothes.	100.0	0	0	0
+用脑子想想	Use your head!	100.0	0	0	0
+我去下洗手间（委婉）	I'm gonna use the bathroom.	100.0	0	0	0
+把...派上用场/展示...	put sth to good use	100.0	0	0	0
+告发某人	tell on sb.	100.0	0	0	0
+我能看出来...	I can tell...	100.0	0	0	0
+听好了，我告诉你	I tell you	100.0	0	0	0
+不是吧？真的吗？	Do tell?	100.0	0	0	0
+一定要告诉我啊	Do tell!	100.0	0	0	0
+依我看来	from what I can tell	100.0	0	0	0
+你不该乱嚼舌根子	You shouldn't tell tales out of school.	100.0	0	0	0
+我得跟你说多少遍才行	How many times do I have to tell you?	100.0	0	0	0
+你用不着这么吼我	You don't have to yell at me.	100.0	0	0	0
+这事由你决定	It's your call.	100.0	0	0	0
+我在哪里能停下来加油？	Where can I stop for gas?	100.0	0	0	0
+我坐副驾驶	I got shotgun/I call shotgun	100.0	0	0	0
+禁止超车	No passing!	100.0	0	0	0
+禁行	No outlet!	100.0	0	0	0
+你错过公交车实在是太糟糕了	Sucks you missed your bus.	100.0	0	0	0
+上车吧，坐后排	hop in the back seat	100.0	0	0	0
+放点音乐	put on some music/put some tunes on	100.0	0	0	0
+系好安全带	buckle up	100.0	0	0	0
+谁也不想	Nobody does.	100.0	0	0	0
