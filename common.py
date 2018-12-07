@@ -341,6 +341,9 @@ def init_words():
     new_file = open(DICT_FILE + ".new", "w")
 
     for line in word_file.readlines():
+        if line.strip() == "":
+            continue
+
         word_info = line.strip().split("\t")
 
         if DICT_FILE.endswith(".bi.txt"):
@@ -354,6 +357,7 @@ def init_words():
             elif len(word_info) == 6:
                 pass
             else:
+                print line
                 assert False
         elif DICT_FILE.endswith(".mo.txt"):
             if len(word_info) == 1:
@@ -363,6 +367,7 @@ def init_words():
             elif len(word_info) == 5:
                 pass
             else:
+                print line
                 assert False
 
         new_file.write("\t".join(word_info) + "\n")
